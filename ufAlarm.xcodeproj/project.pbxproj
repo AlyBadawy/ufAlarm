@@ -23,6 +23,9 @@
 		2F182CB12B14E59500F9093C /* ActivityConsts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F182CB02B14E59500F9093C /* ActivityConsts.swift */; };
 		2F182CB32B14E62100F9093C /* ColorConsts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F182CB22B14E62100F9093C /* ColorConsts.swift */; };
 		2F182CB52B14EE8A00F9093C /* TimeIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F182CB42B14EE8A00F9093C /* TimeIcon.swift */; };
+		2F182CB72B14EF3000F9093C /* SplashScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F182CB62B14EF3000F9093C /* SplashScreen.swift */; };
+		2F182CB92B14EFC000F9093C /* GradientCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F182CB82B14EFC000F9093C /* GradientCircle.swift */; };
+		2F182CBB2B14F05C00F9093C /* FourAnimatedGradCirclesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F182CBA2B14F05C00F9093C /* FourAnimatedGradCirclesView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,6 +48,9 @@
 		2F182CB02B14E59500F9093C /* ActivityConsts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityConsts.swift; sourceTree = "<group>"; };
 		2F182CB22B14E62100F9093C /* ColorConsts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorConsts.swift; sourceTree = "<group>"; };
 		2F182CB42B14EE8A00F9093C /* TimeIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeIcon.swift; sourceTree = "<group>"; };
+		2F182CB62B14EF3000F9093C /* SplashScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreen.swift; sourceTree = "<group>"; };
+		2F182CB82B14EFC000F9093C /* GradientCircle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientCircle.swift; sourceTree = "<group>"; };
+		2F182CBA2B14F05C00F9093C /* FourAnimatedGradCirclesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourAnimatedGradCirclesView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -155,6 +161,7 @@
 			isa = PBXGroup;
 			children = (
 				2F182C832B14D4C600F9093C /* MainAlarmView.swift */,
+				2F182CB62B14EF3000F9093C /* SplashScreen.swift */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -172,6 +179,8 @@
 				2F182CA12B14D95800F9093C /* GrayedTextView.swift */,
 				2F182CA32B14D9D100F9093C /* CustomTextView.swift */,
 				2F182CB42B14EE8A00F9093C /* TimeIcon.swift */,
+				2F182CB82B14EFC000F9093C /* GradientCircle.swift */,
+				2F182CBA2B14F05C00F9093C /* FourAnimatedGradCirclesView.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -268,6 +277,7 @@
 			files = (
 				2F182CAF2B14E51000F9093C /* UfSound.swift in Sources */,
 				2F182CB32B14E62100F9093C /* ColorConsts.swift in Sources */,
+				2F182CB72B14EF3000F9093C /* SplashScreen.swift in Sources */,
 				2F182CA92B14DA9400F9093C /* DateExtensions.swift in Sources */,
 				2F182CA72B14DA7000F9093C /* DateTimeUtils.swift in Sources */,
 				2F182CB52B14EE8A00F9093C /* TimeIcon.swift in Sources */,
@@ -276,6 +286,8 @@
 				2F182CA42B14D9D100F9093C /* CustomTextView.swift in Sources */,
 				2F182CAD2B14DB5F00F9093C /* UfAlarm.swift in Sources */,
 				2F182C9E2B14D79400F9093C /* ScreenConstants.swift in Sources */,
+				2F182CBB2B14F05C00F9093C /* FourAnimatedGradCirclesView.swift in Sources */,
+				2F182CB92B14EFC000F9093C /* GradientCircle.swift in Sources */,
 				2F182C822B14D4C600F9093C /* ufAlarmApp.swift in Sources */,
 				2F182CB12B14E59500F9093C /* ActivityConsts.swift in Sources */,
 				2F182CA22B14D95800F9093C /* GrayedTextView.swift in Sources */,

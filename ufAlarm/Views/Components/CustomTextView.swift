@@ -9,7 +9,7 @@ import SwiftUI
 
 struct CustomTextView: View {
   let fontName = "WorkSans-VariableFont_wght"
-  let text: String
+  let text: LocalizedStringKey
   let size: CGFloat
   
   var body: some View {
@@ -21,6 +21,6 @@ struct CustomTextView: View {
 }
 
 #Preview {
-    CustomTextView(text: "Add Alarm",
+    CustomTextView(text: "let's add an alarm",
                    size: 36)
 }
