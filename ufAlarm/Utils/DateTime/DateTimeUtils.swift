@@ -44,3 +44,8 @@ func formatDate(dateTime: Date) -> String {
 }
 
 
+func dateToUfTime(dateTime: Date) -> UfTime {
+  let components = getDateTimeComponents(dateTime: dateTime)
+  return UfTime(hours: components.hour, minutes: components.minute)
+}
+

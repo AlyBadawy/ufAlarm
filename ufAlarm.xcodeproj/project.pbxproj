@@ -17,6 +17,11 @@
 		2F182CA42B14D9D100F9093C /* CustomTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F182CA32B14D9D100F9093C /* CustomTextView.swift */; };
 		2F182CA72B14DA7000F9093C /* DateTimeUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F182CA62B14DA7000F9093C /* DateTimeUtils.swift */; };
 		2F182CA92B14DA9400F9093C /* DateExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F182CA82B14DA9400F9093C /* DateExtensions.swift */; };
+		2F182CAB2B14DB5700F9093C /* UfTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F182CAA2B14DB5700F9093C /* UfTime.swift */; };
+		2F182CAD2B14DB5F00F9093C /* UfAlarm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F182CAC2B14DB5F00F9093C /* UfAlarm.swift */; };
+		2F182CAF2B14E51000F9093C /* UfSound.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F182CAE2B14E51000F9093C /* UfSound.swift */; };
+		2F182CB12B14E59500F9093C /* ActivityConsts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F182CB02B14E59500F9093C /* ActivityConsts.swift */; };
+		2F182CB32B14E62100F9093C /* ColorConsts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F182CB22B14E62100F9093C /* ColorConsts.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +38,11 @@
 		2F182CA32B14D9D100F9093C /* CustomTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextView.swift; sourceTree = "<group>"; };
 		2F182CA62B14DA7000F9093C /* DateTimeUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateTimeUtils.swift; sourceTree = "<group>"; };
 		2F182CA82B14DA9400F9093C /* DateExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateExtensions.swift; sourceTree = "<group>"; };
+		2F182CAA2B14DB5700F9093C /* UfTime.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UfTime.swift; sourceTree = "<group>"; };
+		2F182CAC2B14DB5F00F9093C /* UfAlarm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UfAlarm.swift; sourceTree = "<group>"; };
+		2F182CAE2B14E51000F9093C /* UfSound.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UfSound.swift; sourceTree = "<group>"; };
+		2F182CB02B14E59500F9093C /* ActivityConsts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityConsts.swift; sourceTree = "<group>"; };
+		2F182CB22B14E62100F9093C /* ColorConsts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorConsts.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +109,9 @@
 		2F182C902B14D4E000F9093C /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				2F182CAA2B14DB5700F9093C /* UfTime.swift */,
+				2F182CAC2B14DB5F00F9093C /* UfAlarm.swift */,
+				2F182CAE2B14E51000F9093C /* UfSound.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -164,6 +177,8 @@
 			isa = PBXGroup;
 			children = (
 				2F182C9D2B14D79400F9093C /* ScreenConstants.swift */,
+				2F182CB02B14E59500F9093C /* ActivityConsts.swift */,
+				2F182CB22B14E62100F9093C /* ColorConsts.swift */,
 			);
 			path = Consts;
 			sourceTree = "<group>";
@@ -248,12 +263,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2F182CAF2B14E51000F9093C /* UfSound.swift in Sources */,
+				2F182CB32B14E62100F9093C /* ColorConsts.swift in Sources */,
 				2F182CA92B14DA9400F9093C /* DateExtensions.swift in Sources */,
 				2F182CA72B14DA7000F9093C /* DateTimeUtils.swift in Sources */,
+				2F182CAB2B14DB5700F9093C /* UfTime.swift in Sources */,
 				2F182C842B14D4C600F9093C /* MainAlarmView.swift in Sources */,
 				2F182CA42B14D9D100F9093C /* CustomTextView.swift in Sources */,
+				2F182CAD2B14DB5F00F9093C /* UfAlarm.swift in Sources */,
 				2F182C9E2B14D79400F9093C /* ScreenConstants.swift in Sources */,
 				2F182C822B14D4C600F9093C /* ufAlarmApp.swift in Sources */,
+				2F182CB12B14E59500F9093C /* ActivityConsts.swift in Sources */,
 				2F182CA22B14D95800F9093C /* GrayedTextView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
