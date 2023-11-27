@@ -13,6 +13,7 @@
 		2F182C892B14D4C700F9093C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F182C882B14D4C700F9093C /* Preview Assets.xcassets */; };
 		2F182C992B14D6CE00F9093C /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 2F182C982B14D6CE00F9093C /* Localizable.xcstrings */; };
 		2F182C9E2B14D79400F9093C /* ScreenConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F182C9D2B14D79400F9093C /* ScreenConstants.swift */; };
+		2F182CA22B14D95800F9093C /* GrayedTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F182CA12B14D95800F9093C /* GrayedTextView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		2F182C9A2B14D76200F9093C /* WorkSans-Italic-VariableFont_wght.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "WorkSans-Italic-VariableFont_wght.ttf"; sourceTree = "<group>"; };
 		2F182C9B2B14D76200F9093C /* WorkSans-VariableFont_wght.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "WorkSans-VariableFont_wght.ttf"; sourceTree = "<group>"; };
 		2F182C9D2B14D79400F9093C /* ScreenConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScreenConstants.swift; sourceTree = "<group>"; };
+		2F182CA12B14D95800F9093C /* GrayedTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrayedTextView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -145,6 +147,7 @@
 		2F182C972B14D69F00F9093C /* Components */ = {
 			isa = PBXGroup;
 			children = (
+				2F182CA12B14D95800F9093C /* GrayedTextView.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -231,6 +234,7 @@
 				2F182C842B14D4C600F9093C /* MainAlarmView.swift in Sources */,
 				2F182C9E2B14D79400F9093C /* ScreenConstants.swift in Sources */,
 				2F182C822B14D4C600F9093C /* ufAlarmApp.swift in Sources */,
+				2F182CA22B14D95800F9093C /* GrayedTextView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
