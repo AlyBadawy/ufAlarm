@@ -22,6 +22,7 @@
 		2F182CAF2B14E51000F9093C /* UfSound.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F182CAE2B14E51000F9093C /* UfSound.swift */; };
 		2F182CB12B14E59500F9093C /* ActivityConsts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F182CB02B14E59500F9093C /* ActivityConsts.swift */; };
 		2F182CB32B14E62100F9093C /* ColorConsts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F182CB22B14E62100F9093C /* ColorConsts.swift */; };
+		2F182CB52B14EE8A00F9093C /* TimeIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F182CB42B14EE8A00F9093C /* TimeIcon.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,6 +44,7 @@
 		2F182CAE2B14E51000F9093C /* UfSound.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UfSound.swift; sourceTree = "<group>"; };
 		2F182CB02B14E59500F9093C /* ActivityConsts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityConsts.swift; sourceTree = "<group>"; };
 		2F182CB22B14E62100F9093C /* ColorConsts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorConsts.swift; sourceTree = "<group>"; };
+		2F182CB42B14EE8A00F9093C /* TimeIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeIcon.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -169,6 +171,7 @@
 			children = (
 				2F182CA12B14D95800F9093C /* GrayedTextView.swift */,
 				2F182CA32B14D9D100F9093C /* CustomTextView.swift */,
+				2F182CB42B14EE8A00F9093C /* TimeIcon.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -267,6 +270,7 @@
 				2F182CB32B14E62100F9093C /* ColorConsts.swift in Sources */,
 				2F182CA92B14DA9400F9093C /* DateExtensions.swift in Sources */,
 				2F182CA72B14DA7000F9093C /* DateTimeUtils.swift in Sources */,
+				2F182CB52B14EE8A00F9093C /* TimeIcon.swift in Sources */,
 				2F182CAB2B14DB5700F9093C /* UfTime.swift in Sources */,
 				2F182C842B14D4C600F9093C /* MainAlarmView.swift in Sources */,
 				2F182CA42B14D9D100F9093C /* CustomTextView.swift in Sources */,
