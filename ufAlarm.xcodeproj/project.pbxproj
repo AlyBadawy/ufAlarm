@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		2F182C822B14D4C600F9093C /* ufAlarmApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F182C812B14D4C600F9093C /* ufAlarmApp.swift */; };
-		2F182C842B14D4C600F9093C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F182C832B14D4C600F9093C /* ContentView.swift */; };
+		2F182C842B14D4C600F9093C /* MainAlarmView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F182C832B14D4C600F9093C /* MainAlarmView.swift */; };
 		2F182C862B14D4C700F9093C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F182C852B14D4C700F9093C /* Assets.xcassets */; };
 		2F182C892B14D4C700F9093C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F182C882B14D4C700F9093C /* Preview Assets.xcassets */; };
 		2F182C992B14D6CE00F9093C /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 2F182C982B14D6CE00F9093C /* Localizable.xcstrings */; };
@@ -18,7 +18,7 @@
 /* Begin PBXFileReference section */
 		2F182C7E2B14D4C600F9093C /* ufAlarm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ufAlarm.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F182C812B14D4C600F9093C /* ufAlarmApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ufAlarmApp.swift; sourceTree = "<group>"; };
-		2F182C832B14D4C600F9093C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2F182C832B14D4C600F9093C /* MainAlarmView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainAlarmView.swift; sourceTree = "<group>"; };
 		2F182C852B14D4C700F9093C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2F182C882B14D4C700F9093C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		2F182C982B14D6CE00F9093C /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
@@ -130,7 +130,7 @@
 		2F182C952B14D68F00F9093C /* Main */ = {
 			isa = PBXGroup;
 			children = (
-				2F182C832B14D4C600F9093C /* ContentView.swift */,
+				2F182C832B14D4C600F9093C /* MainAlarmView.swift */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -228,7 +228,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2F182C842B14D4C600F9093C /* ContentView.swift in Sources */,
+				2F182C842B14D4C600F9093C /* MainAlarmView.swift in Sources */,
 				2F182C9E2B14D79400F9093C /* ScreenConstants.swift in Sources */,
 				2F182C822B14D4C600F9093C /* ufAlarmApp.swift in Sources */,
 			);

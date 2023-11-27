@@ -11,7 +11,7 @@ import SwiftUI
 struct ufAlarmApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MainAlarmView()
         }
     }
 }
