@@ -12,6 +12,7 @@
 		2F182C862B14D4C700F9093C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F182C852B14D4C700F9093C /* Assets.xcassets */; };
 		2F182C892B14D4C700F9093C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F182C882B14D4C700F9093C /* Preview Assets.xcassets */; };
 		2F182C992B14D6CE00F9093C /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 2F182C982B14D6CE00F9093C /* Localizable.xcstrings */; };
+		2F182C9E2B14D79400F9093C /* ScreenConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F182C9D2B14D79400F9093C /* ScreenConstants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,9 @@
 		2F182C852B14D4C700F9093C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2F182C882B14D4C700F9093C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		2F182C982B14D6CE00F9093C /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
+		2F182C9A2B14D76200F9093C /* WorkSans-Italic-VariableFont_wght.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "WorkSans-Italic-VariableFont_wght.ttf"; sourceTree = "<group>"; };
+		2F182C9B2B14D76200F9093C /* WorkSans-VariableFont_wght.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "WorkSans-VariableFont_wght.ttf"; sourceTree = "<group>"; };
+		2F182C9D2B14D79400F9093C /* ScreenConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScreenConstants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +105,8 @@
 		2F182C922B14D50400F9093C /* Fonts */ = {
 			isa = PBXGroup;
 			children = (
+				2F182C9A2B14D76200F9093C /* WorkSans-Italic-VariableFont_wght.ttf */,
+				2F182C9B2B14D76200F9093C /* WorkSans-VariableFont_wght.ttf */,
 			);
 			path = Fonts;
 			sourceTree = "<group>";
@@ -108,6 +114,7 @@
 		2F182C932B14D51400F9093C /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				2F182C9C2B14D78500F9093C /* Consts */,
 				2F182C982B14D6CE00F9093C /* Localizable.xcstrings */,
 			);
 			path = Utils;
@@ -140,6 +147,14 @@
 			children = (
 			);
 			path = Components;
+			sourceTree = "<group>";
+		};
+		2F182C9C2B14D78500F9093C /* Consts */ = {
+			isa = PBXGroup;
+			children = (
+				2F182C9D2B14D79400F9093C /* ScreenConstants.swift */,
+			);
+			path = Consts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -214,6 +229,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2F182C842B14D4C600F9093C /* ContentView.swift in Sources */,
+				2F182C9E2B14D79400F9093C /* ScreenConstants.swift in Sources */,
 				2F182C822B14D4C600F9093C /* ufAlarmApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
