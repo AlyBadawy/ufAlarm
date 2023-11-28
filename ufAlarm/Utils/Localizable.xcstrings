@@ -15,6 +15,12 @@
         }
       }
     },
+    "Enable" : {
+
+    },
+    "Enable notifications, please!" : {
+
+    },
     "Hello There" : {
 
     },
@@ -39,6 +45,9 @@
           }
         }
       }
+    },
+    "You did it! Here you can manage your alarm, change time, etc..." : {
+
     }
   },
   "version" : "1.0"

@@ -12,12 +12,8 @@ extension Font {
     let latinFontName = "WorkSans-Regular"
     let arabicFontNAme = "ElMessiri-Regular"
     
-    @Environment(\.locale) var locale: Locale
-    
     let language = Locale.preferredLanguages[0]
     
-    
-    print("language", language)
     switch language {
     case "ar":
       return .custom(arabicFontNAme, size: size, relativeTo: .body)

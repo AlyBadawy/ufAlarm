@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct CustomTextView: View {
-  let text: LocalizedStringKey
+  let text: LocalizedStringResource
   let size: CGFloat
   
   var body: some View {

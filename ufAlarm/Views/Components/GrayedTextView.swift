@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct GrayedTextView: View {
-  let text: LocalizedStringKey
+  let text: LocalizedStringResource
   
   var body: some View {
     Text(text)
