@@ -1,8 +1,44 @@
 {
   "sourceLanguage" : "en",
   "strings" : {
+    "About VexUf Alarm" : {
+
+    },
+    "Add Alarm" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "إضافة منبه"
+          }
+        }
+      }
+    },
+    "Hello There" : {
+
+    },
     "Hello, world!" : {
 
+    },
+    "let's add an alarm" : {
+
+    },
+    "To Aly Badawy's page" : {
+
+    },
+    "VexUf Alarm" : {
+
+    },
+    "VexUf-Alarm is part of the VexUf family of applications" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "منبه VexUf-Alarm هو جزء من مجموعة تطبيقات VexUf للبرماجيات"
+          }
+        }
+      }
     }
   },
   "version" : "1.0"

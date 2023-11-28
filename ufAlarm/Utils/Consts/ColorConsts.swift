@@ -8,7 +8,12 @@
 import Foundation
 import SwiftUI
 
-let GRADIENT_COLORS: [Color] = []
+let GRADIENT_COLORS: [Color] = [
+  .color1,
+  .color2,
+  .color3,
+  .color4
+]
 
 let ALARM_COLORS: [Color] = [
   .brown,

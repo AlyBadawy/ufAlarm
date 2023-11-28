@@ -9,15 +9,14 @@ import SwiftUI
 
 struct GrayedTextView: View {
   let text: LocalizedStringKey
-  var font = Font.headline
   
   var body: some View {
     Text(text)
       .foregroundStyle(.gray)
-      .font(font)
+      .font(.customFont(size: 24))
   }
 }
 
 #Preview {
-    GrayedTextView(text: "Add Alarm")
+  GrayedTextView(text: "Add Alarm")
 }

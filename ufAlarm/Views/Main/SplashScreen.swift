@@ -35,12 +35,21 @@ struct SplashScreen: View {
           
           Spacer()
           
-          Image("welcome")
-            .resizable()
-            .scaledToFit()
-            .opacity(0.8)
+          ZStack {
+            Image("reminder")
+              .resizable()
+              .scaledToFit()
+              .opacity(0.85)
+              
+            
+            CustomTextView(text: "VexUf Alarm", size: 24)
+              .foregroundStyle(.subtleHighlightUf)
+              .offset(x: -screenWidth / 20, y: screenHeight / 5)
+            
+          }
+          .shadow(radius: 3, x: 2, y: 5)
           
-          Spacer()
+          
         }
         
         

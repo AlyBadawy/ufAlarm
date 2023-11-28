@@ -11,7 +11,6 @@
 		2F182C842B14D4C600F9093C /* MainAlarmView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F182C832B14D4C600F9093C /* MainAlarmView.swift */; };
 		2F182C862B14D4C700F9093C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F182C852B14D4C700F9093C /* Assets.xcassets */; };
 		2F182C892B14D4C700F9093C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F182C882B14D4C700F9093C /* Preview Assets.xcassets */; };
-		2F182C992B14D6CE00F9093C /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 2F182C982B14D6CE00F9093C /* Localizable.xcstrings */; };
 		2F182C9E2B14D79400F9093C /* ScreenConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F182C9D2B14D79400F9093C /* ScreenConstants.swift */; };
 		2F182CA22B14D95800F9093C /* GrayedTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F182CA12B14D95800F9093C /* GrayedTextView.swift */; };
 		2F182CA42B14D9D100F9093C /* CustomTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F182CA32B14D9D100F9093C /* CustomTextView.swift */; };
@@ -26,6 +25,18 @@
 		2F182CB72B14EF3000F9093C /* SplashScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F182CB62B14EF3000F9093C /* SplashScreen.swift */; };
 		2F182CB92B14EFC000F9093C /* GradientCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F182CB82B14EFC000F9093C /* GradientCircle.swift */; };
 		2F182CBB2B14F05C00F9093C /* FourAnimatedGradCirclesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F182CBA2B14F05C00F9093C /* FourAnimatedGradCirclesView.swift */; };
+		2F182CBD2B14F15700F9093C /* AboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F182CBC2B14F15700F9093C /* AboutView.swift */; };
+		2F182CBF2B14F66C00F9093C /* MainGradient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F182CBE2B14F66C00F9093C /* MainGradient.swift */; };
+		2F182CC22B14F98E00F9093C /* FontExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F182CC12B14F98E00F9093C /* FontExtensions.swift */; };
+		2F182CC82B15006300F9093C /* arabic_font.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2F182CC32B14FBA700F9093C /* arabic_font.ttf */; };
+		2F182CC92B15006600F9093C /* ElMessiri-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2F182CC72B14FEAA00F9093C /* ElMessiri-Bold.ttf */; };
+		2F182CCA2B15006800F9093C /* ElMessiri-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2F182CC52B14FEAA00F9093C /* ElMessiri-Medium.ttf */; };
+		2F182CCB2B15006A00F9093C /* ElMessiri-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2F182CC42B14FEAA00F9093C /* ElMessiri-Regular.ttf */; };
+		2F182CCC2B15006D00F9093C /* ElMessiri-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2F182CC62B14FEAA00F9093C /* ElMessiri-SemiBold.ttf */; };
+		2F182CCD2B15006F00F9093C /* WorkSans-Italic-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2F182C9A2B14D76200F9093C /* WorkSans-Italic-VariableFont_wght.ttf */; };
+		2F182CCE2B15007100F9093C /* WorkSans-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2F182C9B2B14D76200F9093C /* WorkSans-VariableFont_wght.ttf */; };
+		2F182CD12B1531E000F9093C /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 2F182CD02B1531E000F9093C /* Localizable.xcstrings */; };
+		2F182CD32B158F7900F9093C /* UfButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F182CD22B158F7900F9093C /* UfButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,7 +45,6 @@
 		2F182C832B14D4C600F9093C /* MainAlarmView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainAlarmView.swift; sourceTree = "<group>"; };
 		2F182C852B14D4C700F9093C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2F182C882B14D4C700F9093C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		2F182C982B14D6CE00F9093C /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
 		2F182C9A2B14D76200F9093C /* WorkSans-Italic-VariableFont_wght.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "WorkSans-Italic-VariableFont_wght.ttf"; sourceTree = "<group>"; };
 		2F182C9B2B14D76200F9093C /* WorkSans-VariableFont_wght.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "WorkSans-VariableFont_wght.ttf"; sourceTree = "<group>"; };
 		2F182C9D2B14D79400F9093C /* ScreenConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScreenConstants.swift; sourceTree = "<group>"; };
@@ -51,6 +61,17 @@
 		2F182CB62B14EF3000F9093C /* SplashScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreen.swift; sourceTree = "<group>"; };
 		2F182CB82B14EFC000F9093C /* GradientCircle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientCircle.swift; sourceTree = "<group>"; };
 		2F182CBA2B14F05C00F9093C /* FourAnimatedGradCirclesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourAnimatedGradCirclesView.swift; sourceTree = "<group>"; };
+		2F182CBC2B14F15700F9093C /* AboutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutView.swift; sourceTree = "<group>"; };
+		2F182CBE2B14F66C00F9093C /* MainGradient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainGradient.swift; sourceTree = "<group>"; };
+		2F182CC12B14F98E00F9093C /* FontExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontExtensions.swift; sourceTree = "<group>"; };
+		2F182CC32B14FBA700F9093C /* arabic_font.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = arabic_font.ttf; sourceTree = "<group>"; };
+		2F182CC42B14FEAA00F9093C /* ElMessiri-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ElMessiri-Regular.ttf"; sourceTree = "<group>"; };
+		2F182CC52B14FEAA00F9093C /* ElMessiri-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ElMessiri-Medium.ttf"; sourceTree = "<group>"; };
+		2F182CC62B14FEAA00F9093C /* ElMessiri-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ElMessiri-SemiBold.ttf"; sourceTree = "<group>"; };
+		2F182CC72B14FEAA00F9093C /* ElMessiri-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ElMessiri-Bold.ttf"; sourceTree = "<group>"; };
+		2F182CCF2B15024D00F9093C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		2F182CD02B1531E000F9093C /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
+		2F182CD22B158F7900F9093C /* UfButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UfButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +104,7 @@
 		2F182C802B14D4C600F9093C /* ufAlarm */ = {
 			isa = PBXGroup;
 			children = (
+				2F182CCF2B15024D00F9093C /* Info.plist */,
 				2F182C8F2B14D4D500F9093C /* Views */,
 				2F182C902B14D4E000F9093C /* Models */,
 				2F182C912B14D4EB00F9093C /* ViewModels */,
@@ -134,6 +156,11 @@
 		2F182C922B14D50400F9093C /* Fonts */ = {
 			isa = PBXGroup;
 			children = (
+				2F182CC32B14FBA700F9093C /* arabic_font.ttf */,
+				2F182CC72B14FEAA00F9093C /* ElMessiri-Bold.ttf */,
+				2F182CC52B14FEAA00F9093C /* ElMessiri-Medium.ttf */,
+				2F182CC42B14FEAA00F9093C /* ElMessiri-Regular.ttf */,
+				2F182CC62B14FEAA00F9093C /* ElMessiri-SemiBold.ttf */,
 				2F182C9A2B14D76200F9093C /* WorkSans-Italic-VariableFont_wght.ttf */,
 				2F182C9B2B14D76200F9093C /* WorkSans-VariableFont_wght.ttf */,
 			);
@@ -143,9 +170,10 @@
 		2F182C932B14D51400F9093C /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				2F182CC02B14F97F00F9093C /* Extensions */,
 				2F182CA52B14DA5300F9093C /* DateTime */,
 				2F182C9C2B14D78500F9093C /* Consts */,
-				2F182C982B14D6CE00F9093C /* Localizable.xcstrings */,
+				2F182CD02B1531E000F9093C /* Localizable.xcstrings */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -162,6 +190,7 @@
 			children = (
 				2F182C832B14D4C600F9093C /* MainAlarmView.swift */,
 				2F182CB62B14EF3000F9093C /* SplashScreen.swift */,
+				2F182CBC2B14F15700F9093C /* AboutView.swift */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -181,6 +210,8 @@
 				2F182CB42B14EE8A00F9093C /* TimeIcon.swift */,
 				2F182CB82B14EFC000F9093C /* GradientCircle.swift */,
 				2F182CBA2B14F05C00F9093C /* FourAnimatedGradCirclesView.swift */,
+				2F182CBE2B14F66C00F9093C /* MainGradient.swift */,
+				2F182CD22B158F7900F9093C /* UfButton.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -199,9 +230,17 @@
 			isa = PBXGroup;
 			children = (
 				2F182CA62B14DA7000F9093C /* DateTimeUtils.swift */,
-				2F182CA82B14DA9400F9093C /* DateExtensions.swift */,
 			);
 			path = DateTime;
+			sourceTree = "<group>";
+		};
+		2F182CC02B14F97F00F9093C /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				2F182CA82B14DA9400F9093C /* DateExtensions.swift */,
+				2F182CC12B14F98E00F9093C /* FontExtensions.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -246,6 +285,7 @@
 			knownRegions = (
 				en,
 				Base,
+				ar,
 			);
 			mainGroup = 2F182C752B14D4C600F9093C;
 			productRefGroup = 2F182C7F2B14D4C600F9093C /* Products */;
@@ -264,7 +304,14 @@
 			files = (
 				2F182C892B14D4C700F9093C /* Preview Assets.xcassets in Resources */,
 				2F182C862B14D4C700F9093C /* Assets.xcassets in Resources */,
-				2F182C992B14D6CE00F9093C /* Localizable.xcstrings in Resources */,
+				2F182CCE2B15007100F9093C /* WorkSans-VariableFont_wght.ttf in Resources */,
+				2F182CCC2B15006D00F9093C /* ElMessiri-SemiBold.ttf in Resources */,
+				2F182CCA2B15006800F9093C /* ElMessiri-Medium.ttf in Resources */,
+				2F182CC82B15006300F9093C /* arabic_font.ttf in Resources */,
+				2F182CD12B1531E000F9093C /* Localizable.xcstrings in Resources */,
+				2F182CCB2B15006A00F9093C /* ElMessiri-Regular.ttf in Resources */,
+				2F182CCD2B15006F00F9093C /* WorkSans-Italic-VariableFont_wght.ttf in Resources */,
+				2F182CC92B15006600F9093C /* ElMessiri-Bold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,15 +324,19 @@
 			files = (
 				2F182CAF2B14E51000F9093C /* UfSound.swift in Sources */,
 				2F182CB32B14E62100F9093C /* ColorConsts.swift in Sources */,
+				2F182CBD2B14F15700F9093C /* AboutView.swift in Sources */,
 				2F182CB72B14EF3000F9093C /* SplashScreen.swift in Sources */,
 				2F182CA92B14DA9400F9093C /* DateExtensions.swift in Sources */,
 				2F182CA72B14DA7000F9093C /* DateTimeUtils.swift in Sources */,
+				2F182CC22B14F98E00F9093C /* FontExtensions.swift in Sources */,
 				2F182CB52B14EE8A00F9093C /* TimeIcon.swift in Sources */,
+				2F182CD32B158F7900F9093C /* UfButton.swift in Sources */,
 				2F182CAB2B14DB5700F9093C /* UfTime.swift in Sources */,
 				2F182C842B14D4C600F9093C /* MainAlarmView.swift in Sources */,
 				2F182CA42B14D9D100F9093C /* CustomTextView.swift in Sources */,
 				2F182CAD2B14DB5F00F9093C /* UfAlarm.swift in Sources */,
 				2F182C9E2B14D79400F9093C /* ScreenConstants.swift in Sources */,
+				2F182CBF2B14F66C00F9093C /* MainGradient.swift in Sources */,
 				2F182CBB2B14F05C00F9093C /* FourAnimatedGradCirclesView.swift in Sources */,
 				2F182CB92B14EFC000F9093C /* GradientCircle.swift in Sources */,
 				2F182C822B14D4C600F9093C /* ufAlarmApp.swift in Sources */,
@@ -427,6 +478,8 @@
 				DEVELOPMENT_TEAM = 7M8F99A6PS;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ufAlarm/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -456,6 +509,8 @@
 				DEVELOPMENT_TEAM = 7M8F99A6PS;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ufAlarm/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
