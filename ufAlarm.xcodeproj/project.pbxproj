@@ -37,6 +37,7 @@
 		2F182CCE2B15007100F9093C /* WorkSans-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2F182C9B2B14D76200F9093C /* WorkSans-VariableFont_wght.ttf */; };
 		2F182CD12B1531E000F9093C /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 2F182CD02B1531E000F9093C /* Localizable.xcstrings */; };
 		2F182CD32B158F7900F9093C /* UfButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F182CD22B158F7900F9093C /* UfButton.swift */; };
+		2F182CD52B15A2A800F9093C /* EnableNotificationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F182CD42B15A2A800F9093C /* EnableNotificationsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -72,6 +73,7 @@
 		2F182CCF2B15024D00F9093C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		2F182CD02B1531E000F9093C /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
 		2F182CD22B158F7900F9093C /* UfButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UfButton.swift; sourceTree = "<group>"; };
+		2F182CD42B15A2A800F9093C /* EnableNotificationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnableNotificationsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -198,6 +200,7 @@
 		2F182C962B14D69900F9093C /* Support */ = {
 			isa = PBXGroup;
 			children = (
+				2F182CD42B15A2A800F9093C /* EnableNotificationsView.swift */,
 			);
 			path = Support;
 			sourceTree = "<group>";
@@ -325,6 +328,7 @@
 				2F182CAF2B14E51000F9093C /* UfSound.swift in Sources */,
 				2F182CB32B14E62100F9093C /* ColorConsts.swift in Sources */,
 				2F182CBD2B14F15700F9093C /* AboutView.swift in Sources */,
+				2F182CD52B15A2A800F9093C /* EnableNotificationsView.swift in Sources */,
 				2F182CB72B14EF3000F9093C /* SplashScreen.swift in Sources */,
 				2F182CA92B14DA9400F9093C /* DateExtensions.swift in Sources */,
 				2F182CA72B14DA7000F9093C /* DateTimeUtils.swift in Sources */,
