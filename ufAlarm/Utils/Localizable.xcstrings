@@ -1,6 +1,15 @@
 {
   "sourceLanguage" : "en",
   "strings" : {
+    "" : {
+
+    },
+    "%@" : {
+
+    },
+    "About" : {
+
+    },
     "About VexUf Alarm" : {
 
     },
@@ -15,19 +24,55 @@
         }
       }
     },
+    "Alarm" : {
+
+    },
+    "Alarm List" : {
+
+    },
+    "Alarms" : {
+
+    },
+    "Cancel" : {
+
+    },
     "Enable" : {
 
     },
     "Enable notifications, please!" : {
 
     },
+    "End" : {
+
+    },
     "Hello There" : {
 
     },
-    "Hello, world!" : {
+    "let's add an alarm" : {
 
     },
-    "let's add an alarm" : {
+    "off" : {
+
+    },
+    "on" : {
+
+    },
+    "Save" : {
+
+    },
+    "Set Alarm" : {
+
+    },
+    "Sound" : {
+
+    },
+    "Start" : {
+
+    },
+    "Tab Label 1" : {
+
+    },
+    "Tab Label 2" : {
 
     },
     "To Aly Badawy's page" : {

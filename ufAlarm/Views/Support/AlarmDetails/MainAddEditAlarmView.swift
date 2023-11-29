@@ -16,12 +16,12 @@ struct MainAddEditAlarmView: View {
   var body: some View {
     TabView(selection: $selectedTab) {
       AlarmDetailView(currentAlarmIndex: currentAlarmIndex,
-                       alarm: alarm)
+                       alarm: $alarm)
       .tabItem { /*@START_MENU_TOKEN@*/Text("Tab Label 1")/*@END_MENU_TOKEN@*/ }
       .tag("form")
       
       AddEditAlarmCircular(currentAlarmIndex: currentAlarmIndex,
-                           alarm: alarm)
+                           alarm: $alarm)
       .tabItem { /*@START_MENU_TOKEN@*/Text("Tab Label 2")/*@END_MENU_TOKEN@*/ }
       .tag("circular")
     }
@@ -32,7 +32,7 @@ struct MainAddEditAlarmView: View {
         
     }
     .tabViewStyle(.page(indexDisplayMode: .always))
-    .ignoresSafeArea()
+//    .ignoresSafeArea()
   }
 }
 

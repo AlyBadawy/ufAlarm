@@ -10,7 +10,7 @@ import SwiftUI
 struct AddEditAlarmForm: View {
   let currentAlarmIndex: Int?
   
-  @State var alarm: UfAlarm
+  @Binding var alarm: UfAlarm
   
   var body: some View {
     VStack {
@@ -108,5 +108,5 @@ struct AddEditAlarmForm: View {
 }
 
 #Preview {
-  AddEditAlarmForm(currentAlarmIndex: nil, alarm: .defaultAlarm())
+  AddEditAlarmForm(currentAlarmIndex: nil, alarm: .constant(.defaultAlarm()))
 }

@@ -10,7 +10,7 @@ import SwiftUI
 struct AlarmDetailView: View {
   let currentAlarmIndex: Int?
   
-  @State var alarm: UfAlarm
+  @Binding var alarm: UfAlarm
   @State private var showConfirmation = true
   
   var body: some View {
@@ -22,7 +22,7 @@ struct AlarmDetailView: View {
         if showConfirmation {
           AlarmConfirmationView()
         }
-        AddEditAlarmForm(currentAlarmIndex: currentAlarmIndex, alarm: alarm)
+        AddEditAlarmForm(currentAlarmIndex: currentAlarmIndex, alarm: $alarm)
       }.scrollDisabled(!showConfirmation)
     }
     .onAppear {
@@ -37,5 +37,5 @@ struct AlarmDetailView: View {
 }
 
 #Preview {
-  AlarmDetailView(currentAlarmIndex: nil, alarm: .defaultAlarm())
+  AlarmDetailView(currentAlarmIndex: nil, alarm: .constant(.defaultAlarm()))
 }
