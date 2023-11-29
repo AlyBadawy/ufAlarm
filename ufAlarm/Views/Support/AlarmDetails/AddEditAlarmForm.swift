@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct AlarmDetailsForm: View {
+struct AddEditAlarmForm: View {
   let currentAlarmIndex: Int?
   
   @State var alarm: UfAlarm
@@ -26,7 +26,7 @@ struct AlarmDetailsForm: View {
               .font(.largeTitle)
             
             VStack(alignment: .leading) {
-             GrayedTextView(text: "Start")
+              GrayedTextView(text: "Start")
               
               TimePicker(time: $alarm.start, scale: 1.3)
             }
@@ -69,8 +69,16 @@ struct AlarmDetailsForm: View {
             }
           }
           
-          GridRow {
-            Text("")
+          Menu {
+            ForEach(UfSound.allCases, id: \.self) {sound in
+              Button {
+                alarm.sound = sound
+              } label: {
+                Text(sound.rawValue)
+              }
+            }
+            .padding(.vertical)
+          } label: {
             HStack {
               Text("Sound")
                 .fontWeight(.semibold)
@@ -83,16 +91,7 @@ struct AlarmDetailsForm: View {
               Capsule()
                 .stroke()
             }
-            .contextMenu {
-              ForEach(UfSound.allCases, id: \.self) {sound in
-                Button {
-                  alarm.sound = sound
-                } label: {
-                  Text(sound.rawValue)
-                }
-              }
-              .padding(.vertical)
-            }
+            .padding(.top, 20)
           }
         }
         .frame(maxWidth: /*@START_MENU_TOKEN@*/.infinity/*@END_MENU_TOKEN@*/, alignment: .leading)
@@ -109,5 +108,5 @@ struct AlarmDetailsForm: View {
 }
 
 #Preview {
-  AlarmDetailsForm(currentAlarmIndex: nil, alarm: .defaultAlarm())
+  AddEditAlarmForm(currentAlarmIndex: nil, alarm: .defaultAlarm())
 }

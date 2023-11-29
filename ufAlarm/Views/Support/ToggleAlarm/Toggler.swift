@@ -1,5 +1,5 @@
 //
-//  ToggleAlarmView.swift
+//  Toggler.swift
 //  ufAlarm
 //
 //  Created by Aly Badawy on 11/28/23.
@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct ToggleAlarmView: View {
+struct Toggler: View {
   @Binding var isOn: Bool
   
   let factor = 59.0 / 35.0
@@ -22,7 +22,6 @@ struct ToggleAlarmView: View {
   var textColor: Color {
     isOn ? Color.accentUf : Color.secondaryUf
   }
-  
   
   var body: some View {
     let dragGesture = DragGesture()
@@ -39,38 +38,28 @@ struct ToggleAlarmView: View {
       }
     let combinedGesture = dragGesture.simultaneously(with: tapGesture)
     
-    HStack {
-      GrayedTextView(text: "Alarm")
-      Spacer()
+    ZStack {
+      // BG
+      RoundedRectangle(cornerRadius: 30)
+        .fill(Color(white: isOn ? 0.1 : 0.6))
       
-      ZStack {
-        // BG
-        RoundedRectangle(cornerRadius: 30)
-          .fill(Color(white: isOn ? 0.1 : 0.6))
-        
-        // On / Off text
-        ShiftedTextView(text: isOn ? "on" : "off",
-                        xShift: -xShift,
-                        color: textColor)
-        
-        CircularKnob(xShift: xShift,
-                     color: textColor)
-        
-      }
-      .frame(width: height * factor, height: height, alignment: .leading)
-      .gesture(combinedGesture)
+      // On / Off text
+      ShiftedTextView(text: isOn ? "on" : "off",
+                      xShift: -xShift,
+                      color: textColor)
+      
+      CircularKnob(xShift: xShift,
+                   color: textColor)
       
     }
-    .padding()
+    .frame(width: height * factor, height: height, alignment: .leading)
+    .gesture(combinedGesture)
   }
 }
 
 #Preview {
   VStack {
-    ToggleAlarmView(isOn: .constant(true))
-    ToggleAlarmView(isOn: .constant(false))
+    Toggler(isOn: .constant(true))
+    Toggler(isOn: .constant(false))
   }
 }
-
-
-

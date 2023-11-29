@@ -9,11 +9,12 @@ import SwiftUI
 
 struct GrayedTextView: View {
   let text: LocalizedStringResource
+  var fontSize: CGFloat = 18.0
   
   var body: some View {
     Text(text)
       .foregroundStyle(.gray)
-      .font(.customFont(size: 24))
+      .font(.customFont(size: fontSize))
   }
 }
 

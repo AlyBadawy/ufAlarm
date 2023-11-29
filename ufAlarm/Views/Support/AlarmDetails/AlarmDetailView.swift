@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct AddEditAlarmView: View {
+struct AlarmDetailView: View {
   let currentAlarmIndex: Int?
   
   @State var alarm: UfAlarm
@@ -18,13 +18,12 @@ struct AddEditAlarmView: View {
       Color(.subtleBgUf)
         .ignoresSafeArea()
       
-      VStack {
+      ScrollView {
         if showConfirmation {
           AlarmConfirmationView()
         }
-        
-        AlarmDetailsForm(currentAlarmIndex: currentAlarmIndex, alarm: alarm)
-      }
+        AddEditAlarmForm(currentAlarmIndex: currentAlarmIndex, alarm: alarm)
+      }.scrollDisabled(!showConfirmation)
     }
     .onAppear {
       DispatchQueue.main
@@ -38,5 +37,5 @@ struct AddEditAlarmView: View {
 }
 
 #Preview {
-  AddEditAlarmView(currentAlarmIndex: nil, alarm: .defaultAlarm())
+  AlarmDetailView(currentAlarmIndex: nil, alarm: .defaultAlarm())
 }

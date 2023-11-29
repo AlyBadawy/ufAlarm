@@ -38,15 +38,27 @@
 		2F182CD12B1531E000F9093C /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 2F182CD02B1531E000F9093C /* Localizable.xcstrings */; };
 		2F182CD32B158F7900F9093C /* UfButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F182CD22B158F7900F9093C /* UfButton.swift */; };
 		2F182CD52B15A2A800F9093C /* EnableNotificationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F182CD42B15A2A800F9093C /* EnableNotificationsView.swift */; };
-		2F182CD72B15A5C600F9093C /* AddEditAlarmView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F182CD62B15A5C600F9093C /* AddEditAlarmView.swift */; };
+		2F182CD72B15A5C600F9093C /* AlarmDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F182CD62B15A5C600F9093C /* AlarmDetailView.swift */; };
 		2F182CD92B15A75B00F9093C /* AlarmConfirmationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F182CD82B15A75B00F9093C /* AlarmConfirmationView.swift */; };
-		2F182CDB2B15AC9900F9093C /* AlarmDetailsForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F182CDA2B15AC9900F9093C /* AlarmDetailsForm.swift */; };
+		2F182CDB2B15AC9900F9093C /* AddEditAlarmForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F182CDA2B15AC9900F9093C /* AddEditAlarmForm.swift */; };
 		2F182CDD2B15B2BD00F9093C /* CancelSaveAlarmView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F182CDC2B15B2BD00F9093C /* CancelSaveAlarmView.swift */; };
 		2F8D8A3A2B161D2E0083ED53 /* ToggleAlarmView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F8D8A392B161D2E0083ED53 /* ToggleAlarmView.swift */; };
 		2F8D8A3C2B1626C10083ED53 /* ShiftedTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F8D8A3B2B1626C10083ED53 /* ShiftedTextView.swift */; };
 		2F8D8A3E2B1627A90083ED53 /* CircularKnob.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F8D8A3D2B1627A90083ED53 /* CircularKnob.swift */; };
 		2F8D8A422B1633EE0083ED53 /* TimePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F8D8A412B1633EE0083ED53 /* TimePicker.swift */; };
 		2F8D8A442B1636E70083ED53 /* SelectActivityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F8D8A432B1636E70083ED53 /* SelectActivityView.swift */; };
+		2F8D8A462B16444B0083ED53 /* AlarmsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F8D8A452B16444B0083ED53 /* AlarmsListView.swift */; };
+		2F8D8A482B1657100083ED53 /* AlarmRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F8D8A472B1657100083ED53 /* AlarmRowView.swift */; };
+		2F8D8A4A2B1658AD0083ED53 /* Toggler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F8D8A492B1658AD0083ED53 /* Toggler.swift */; };
+		2F8D8A4C2B165F490083ED53 /* AddEditAlarmCircular.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F8D8A4B2B165F490083ED53 /* AddEditAlarmCircular.swift */; };
+		2F8D8A502B16611B0083ED53 /* CircularTimeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F8D8A4F2B16611B0083ED53 /* CircularTimeView.swift */; };
+		2F8D8A562B16679C0083ED53 /* CentralDatePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F8D8A552B16679C0083ED53 /* CentralDatePicker.swift */; };
+		2F8D8A582B1671F70083ED53 /* TimeArc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F8D8A572B1671F70083ED53 /* TimeArc.swift */; };
+		2F8D8A5A2B16904E0083ED53 /* DisplayIconOnCicularTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F8D8A592B16904E0083ED53 /* DisplayIconOnCicularTime.swift */; };
+		2F8D8A5C2B1698AB0083ED53 /* ClockTicks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F8D8A5B2B1698AB0083ED53 /* ClockTicks.swift */; };
+		2F8D8A5E2B169BD60083ED53 /* ClockTick.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F8D8A5D2B169BD60083ED53 /* ClockTick.swift */; };
+		2F8D8A602B16A4240083ED53 /* MainAddEditAlarmView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F8D8A5F2B16A4240083ED53 /* MainAddEditAlarmView.swift */; };
+		2F8D8A632B16B0700083ED53 /* SelectActivityExpanded.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F8D8A622B16B0700083ED53 /* SelectActivityExpanded.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -83,15 +95,27 @@
 		2F182CD02B1531E000F9093C /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
 		2F182CD22B158F7900F9093C /* UfButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UfButton.swift; sourceTree = "<group>"; };
 		2F182CD42B15A2A800F9093C /* EnableNotificationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnableNotificationsView.swift; sourceTree = "<group>"; };
-		2F182CD62B15A5C600F9093C /* AddEditAlarmView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddEditAlarmView.swift; sourceTree = "<group>"; };
+		2F182CD62B15A5C600F9093C /* AlarmDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmDetailView.swift; sourceTree = "<group>"; };
 		2F182CD82B15A75B00F9093C /* AlarmConfirmationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmConfirmationView.swift; sourceTree = "<group>"; };
-		2F182CDA2B15AC9900F9093C /* AlarmDetailsForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmDetailsForm.swift; sourceTree = "<group>"; };
+		2F182CDA2B15AC9900F9093C /* AddEditAlarmForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddEditAlarmForm.swift; sourceTree = "<group>"; };
 		2F182CDC2B15B2BD00F9093C /* CancelSaveAlarmView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CancelSaveAlarmView.swift; sourceTree = "<group>"; };
 		2F8D8A392B161D2E0083ED53 /* ToggleAlarmView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleAlarmView.swift; sourceTree = "<group>"; };
 		2F8D8A3B2B1626C10083ED53 /* ShiftedTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShiftedTextView.swift; sourceTree = "<group>"; };
 		2F8D8A3D2B1627A90083ED53 /* CircularKnob.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularKnob.swift; sourceTree = "<group>"; };
 		2F8D8A412B1633EE0083ED53 /* TimePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimePicker.swift; sourceTree = "<group>"; };
 		2F8D8A432B1636E70083ED53 /* SelectActivityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectActivityView.swift; sourceTree = "<group>"; };
+		2F8D8A452B16444B0083ED53 /* AlarmsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmsListView.swift; sourceTree = "<group>"; };
+		2F8D8A472B1657100083ED53 /* AlarmRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmRowView.swift; sourceTree = "<group>"; };
+		2F8D8A492B1658AD0083ED53 /* Toggler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Toggler.swift; sourceTree = "<group>"; };
+		2F8D8A4B2B165F490083ED53 /* AddEditAlarmCircular.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddEditAlarmCircular.swift; sourceTree = "<group>"; };
+		2F8D8A4F2B16611B0083ED53 /* CircularTimeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularTimeView.swift; sourceTree = "<group>"; };
+		2F8D8A552B16679C0083ED53 /* CentralDatePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CentralDatePicker.swift; sourceTree = "<group>"; };
+		2F8D8A572B1671F70083ED53 /* TimeArc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeArc.swift; sourceTree = "<group>"; };
+		2F8D8A592B16904E0083ED53 /* DisplayIconOnCicularTime.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayIconOnCicularTime.swift; sourceTree = "<group>"; };
+		2F8D8A5B2B1698AB0083ED53 /* ClockTicks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClockTicks.swift; sourceTree = "<group>"; };
+		2F8D8A5D2B169BD60083ED53 /* ClockTick.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClockTick.swift; sourceTree = "<group>"; };
+		2F8D8A5F2B16A4240083ED53 /* MainAddEditAlarmView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainAddEditAlarmView.swift; sourceTree = "<group>"; };
+		2F8D8A622B16B0700083ED53 /* SelectActivityExpanded.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectActivityExpanded.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -208,10 +232,10 @@
 		2F182C952B14D68F00F9093C /* Main */ = {
 			isa = PBXGroup;
 			children = (
-				2F182C832B14D4C600F9093C /* MainAlarmView.swift */,
 				2F182CB62B14EF3000F9093C /* SplashScreen.swift */,
+				2F182C832B14D4C600F9093C /* MainAlarmView.swift */,
 				2F182CBC2B14F15700F9093C /* AboutView.swift */,
-				2F182CD62B15A5C600F9093C /* AddEditAlarmView.swift */,
+				2F182CD42B15A2A800F9093C /* EnableNotificationsView.swift */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -219,12 +243,12 @@
 		2F182C962B14D69900F9093C /* Support */ = {
 			isa = PBXGroup;
 			children = (
-				2F182CD42B15A2A800F9093C /* EnableNotificationsView.swift */,
-				2F182CD82B15A75B00F9093C /* AlarmConfirmationView.swift */,
-				2F182CDA2B15AC9900F9093C /* AlarmDetailsForm.swift */,
+				2F8D8A612B16B05E0083ED53 /* Activity */,
+				2F8D8A542B1666A40083ED53 /* AlarmDetails */,
+				2F8D8A532B1666820083ED53 /* AlarmList */,
+				2F8D8A522B1666410083ED53 /* ToggleAlarm */,
+				2F8D8A512B16661A0083ED53 /* CircularAlarm */,
 				2F182CDC2B15B2BD00F9093C /* CancelSaveAlarmView.swift */,
-				2F8D8A392B161D2E0083ED53 /* ToggleAlarmView.swift */,
-				2F8D8A432B1636E70083ED53 /* SelectActivityView.swift */,
 			);
 			path = Support;
 			sourceTree = "<group>";
@@ -239,8 +263,6 @@
 				2F182CBA2B14F05C00F9093C /* FourAnimatedGradCirclesView.swift */,
 				2F182CBE2B14F66C00F9093C /* MainGradient.swift */,
 				2F182CD22B158F7900F9093C /* UfButton.swift */,
-				2F8D8A3B2B1626C10083ED53 /* ShiftedTextView.swift */,
-				2F8D8A3D2B1627A90083ED53 /* CircularKnob.swift */,
 				2F8D8A412B1633EE0083ED53 /* TimePicker.swift */,
 			);
 			path = Components;
@@ -271,6 +293,60 @@
 				2F182CC12B14F98E00F9093C /* FontExtensions.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		2F8D8A512B16661A0083ED53 /* CircularAlarm */ = {
+			isa = PBXGroup;
+			children = (
+				2F8D8A4B2B165F490083ED53 /* AddEditAlarmCircular.swift */,
+				2F8D8A4F2B16611B0083ED53 /* CircularTimeView.swift */,
+				2F8D8A552B16679C0083ED53 /* CentralDatePicker.swift */,
+				2F8D8A572B1671F70083ED53 /* TimeArc.swift */,
+				2F8D8A592B16904E0083ED53 /* DisplayIconOnCicularTime.swift */,
+				2F8D8A5B2B1698AB0083ED53 /* ClockTicks.swift */,
+				2F8D8A5D2B169BD60083ED53 /* ClockTick.swift */,
+			);
+			path = CircularAlarm;
+			sourceTree = "<group>";
+		};
+		2F8D8A522B1666410083ED53 /* ToggleAlarm */ = {
+			isa = PBXGroup;
+			children = (
+				2F8D8A3B2B1626C10083ED53 /* ShiftedTextView.swift */,
+				2F8D8A3D2B1627A90083ED53 /* CircularKnob.swift */,
+				2F8D8A492B1658AD0083ED53 /* Toggler.swift */,
+				2F8D8A392B161D2E0083ED53 /* ToggleAlarmView.swift */,
+			);
+			path = ToggleAlarm;
+			sourceTree = "<group>";
+		};
+		2F8D8A532B1666820083ED53 /* AlarmList */ = {
+			isa = PBXGroup;
+			children = (
+				2F8D8A472B1657100083ED53 /* AlarmRowView.swift */,
+				2F8D8A452B16444B0083ED53 /* AlarmsListView.swift */,
+			);
+			path = AlarmList;
+			sourceTree = "<group>";
+		};
+		2F8D8A542B1666A40083ED53 /* AlarmDetails */ = {
+			isa = PBXGroup;
+			children = (
+				2F182CD62B15A5C600F9093C /* AlarmDetailView.swift */,
+				2F182CD82B15A75B00F9093C /* AlarmConfirmationView.swift */,
+				2F182CDA2B15AC9900F9093C /* AddEditAlarmForm.swift */,
+				2F8D8A5F2B16A4240083ED53 /* MainAddEditAlarmView.swift */,
+			);
+			path = AlarmDetails;
+			sourceTree = "<group>";
+		};
+		2F8D8A612B16B05E0083ED53 /* Activity */ = {
+			isa = PBXGroup;
+			children = (
+				2F8D8A432B1636E70083ED53 /* SelectActivityView.swift */,
+				2F8D8A622B16B0700083ED53 /* SelectActivityExpanded.swift */,
+			);
+			path = Activity;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -361,25 +437,37 @@
 				2F8D8A422B1633EE0083ED53 /* TimePicker.swift in Sources */,
 				2F182CA72B14DA7000F9093C /* DateTimeUtils.swift in Sources */,
 				2F182CC22B14F98E00F9093C /* FontExtensions.swift in Sources */,
+				2F8D8A582B1671F70083ED53 /* TimeArc.swift in Sources */,
 				2F8D8A3A2B161D2E0083ED53 /* ToggleAlarmView.swift in Sources */,
 				2F182CB52B14EE8A00F9093C /* TimeIcon.swift in Sources */,
 				2F182CD32B158F7900F9093C /* UfButton.swift in Sources */,
+				2F8D8A632B16B0700083ED53 /* SelectActivityExpanded.swift in Sources */,
 				2F182CAB2B14DB5700F9093C /* UfTime.swift in Sources */,
+				2F8D8A482B1657100083ED53 /* AlarmRowView.swift in Sources */,
+				2F8D8A462B16444B0083ED53 /* AlarmsListView.swift in Sources */,
+				2F8D8A5C2B1698AB0083ED53 /* ClockTicks.swift in Sources */,
+				2F8D8A5E2B169BD60083ED53 /* ClockTick.swift in Sources */,
 				2F182C842B14D4C600F9093C /* MainAlarmView.swift in Sources */,
 				2F182CA42B14D9D100F9093C /* CustomTextView.swift in Sources */,
 				2F182CAD2B14DB5F00F9093C /* UfAlarm.swift in Sources */,
-				2F182CDB2B15AC9900F9093C /* AlarmDetailsForm.swift in Sources */,
+				2F182CDB2B15AC9900F9093C /* AddEditAlarmForm.swift in Sources */,
+				2F8D8A562B16679C0083ED53 /* CentralDatePicker.swift in Sources */,
 				2F182CD92B15A75B00F9093C /* AlarmConfirmationView.swift in Sources */,
-				2F182CD72B15A5C600F9093C /* AddEditAlarmView.swift in Sources */,
+				2F182CD72B15A5C600F9093C /* AlarmDetailView.swift in Sources */,
 				2F8D8A442B1636E70083ED53 /* SelectActivityView.swift in Sources */,
 				2F182C9E2B14D79400F9093C /* ScreenConstants.swift in Sources */,
 				2F182CBF2B14F66C00F9093C /* MainGradient.swift in Sources */,
 				2F8D8A3E2B1627A90083ED53 /* CircularKnob.swift in Sources */,
 				2F182CBB2B14F05C00F9093C /* FourAnimatedGradCirclesView.swift in Sources */,
 				2F182CB92B14EFC000F9093C /* GradientCircle.swift in Sources */,
+				2F8D8A602B16A4240083ED53 /* MainAddEditAlarmView.swift in Sources */,
+				2F8D8A5A2B16904E0083ED53 /* DisplayIconOnCicularTime.swift in Sources */,
 				2F182C822B14D4C600F9093C /* ufAlarmApp.swift in Sources */,
 				2F8D8A3C2B1626C10083ED53 /* ShiftedTextView.swift in Sources */,
 				2F182CDD2B15B2BD00F9093C /* CancelSaveAlarmView.swift in Sources */,
+				2F8D8A502B16611B0083ED53 /* CircularTimeView.swift in Sources */,
+				2F8D8A4A2B1658AD0083ED53 /* Toggler.swift in Sources */,
+				2F8D8A4C2B165F490083ED53 /* AddEditAlarmCircular.swift in Sources */,
 				2F182CB12B14E59500F9093C /* ActivityConsts.swift in Sources */,
 				2F182CA22B14D95800F9093C /* GrayedTextView.swift in Sources */,
 			);
