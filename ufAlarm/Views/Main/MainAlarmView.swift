@@ -8,10 +8,13 @@
 import SwiftUI
 
 struct MainAlarmView: View {
-    var body: some View {
-      TabView {
-//        AddEditAlarmView(currentAlarmIndex: nil,
-//                         alarm: .defaultAlarm())
+  @Environment(LocalNotificationManager.self) var lnManager
+  @Environment(\.scenePhase) var scenePhase
+  
+  
+  var body: some View {
+    TabView {
+      if lnManager.isAuthorized {
         AlarmsListView(alarmViewModels: UfAlarm.dummyAlarmData() + UfAlarm.dummyAlarmData())
           .tabItem {
             Label("Alarms", systemImage: "alarm.fill")
@@ -21,11 +24,28 @@ struct MainAlarmView: View {
           .tabItem {
             Label("About", systemImage: "info.circle.fill")
           }
-
+      } else {
+        EnableNotificationsView()
       }
     }
+    .ignoresSafeArea()
+    .task {
+      await lnManager.getCurrentSettings()
+      await lnManager.getPendingAlarms()
+      try? await lnManager.requestAuthorization()
+    }
+    .onChange(of: scenePhase, { oldValue, newValue in
+      if newValue == .active {
+        Task {
+          await lnManager.getCurrentSettings()
+          await lnManager.getPendingAlarms()
+        }
+      }
+    })
+  }
 }
 
 #Preview {
-    MainAlarmView()
+  MainAlarmView()
+    .environment(LocalNotificationManager())
 }

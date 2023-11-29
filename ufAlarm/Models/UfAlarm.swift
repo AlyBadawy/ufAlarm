@@ -8,7 +8,7 @@
 import Foundation
 import SwiftUI
 
-struct UfAlarm: Identifiable {
+struct UfAlarm: Identifiable, Codable {
   let id = UUID().uuidString
   
   let title: String

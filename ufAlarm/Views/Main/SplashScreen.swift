@@ -9,6 +9,7 @@ import SwiftUI
 
 struct SplashScreen: View {
   @State private var isActive = false
+  
   @State private var opacity = 0.3
   @State private var fontSize = 12.0
   
@@ -74,4 +75,5 @@ struct SplashScreen: View {
 
 #Preview {
   SplashScreen()
+    .environment(LocalNotificationManager())
 }

@@ -59,6 +59,7 @@
 		2F8D8A5E2B169BD60083ED53 /* ClockTick.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F8D8A5D2B169BD60083ED53 /* ClockTick.swift */; };
 		2F8D8A602B16A4240083ED53 /* MainAddEditAlarmView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F8D8A5F2B16A4240083ED53 /* MainAddEditAlarmView.swift */; };
 		2F8D8A632B16B0700083ED53 /* SelectActivityExpanded.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F8D8A622B16B0700083ED53 /* SelectActivityExpanded.swift */; };
+		2FFAED502B16DBEC003FDB4C /* LocalNotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FFAED4F2B16DBEC003FDB4C /* LocalNotificationManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -91,7 +92,7 @@
 		2F182CC52B14FEAA00F9093C /* ElMessiri-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ElMessiri-Medium.ttf"; sourceTree = "<group>"; };
 		2F182CC62B14FEAA00F9093C /* ElMessiri-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ElMessiri-SemiBold.ttf"; sourceTree = "<group>"; };
 		2F182CC72B14FEAA00F9093C /* ElMessiri-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ElMessiri-Bold.ttf"; sourceTree = "<group>"; };
-		2F182CCF2B15024D00F9093C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		2F182CCF2B15024D00F9093C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2F182CD02B1531E000F9093C /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
 		2F182CD22B158F7900F9093C /* UfButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UfButton.swift; sourceTree = "<group>"; };
 		2F182CD42B15A2A800F9093C /* EnableNotificationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnableNotificationsView.swift; sourceTree = "<group>"; };
@@ -116,6 +117,7 @@
 		2F8D8A5D2B169BD60083ED53 /* ClockTick.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClockTick.swift; sourceTree = "<group>"; };
 		2F8D8A5F2B16A4240083ED53 /* MainAddEditAlarmView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainAddEditAlarmView.swift; sourceTree = "<group>"; };
 		2F8D8A622B16B0700083ED53 /* SelectActivityExpanded.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectActivityExpanded.swift; sourceTree = "<group>"; };
+		2FFAED4F2B16DBEC003FDB4C /* LocalNotificationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalNotificationManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -148,15 +150,16 @@
 		2F182C802B14D4C600F9093C /* ufAlarm */ = {
 			isa = PBXGroup;
 			children = (
+				2F182C812B14D4C600F9093C /* ufAlarmApp.swift */,
 				2F182CCF2B15024D00F9093C /* Info.plist */,
+				2F182CD02B1531E000F9093C /* Localizable.xcstrings */,
+				2F182C852B14D4C700F9093C /* Assets.xcassets */,
 				2F182C8F2B14D4D500F9093C /* Views */,
 				2F182C902B14D4E000F9093C /* Models */,
 				2F182C912B14D4EB00F9093C /* ViewModels */,
 				2F182C932B14D51400F9093C /* Utils */,
 				2F182C942B14D51D00F9093C /* Sounds */,
 				2F182C922B14D50400F9093C /* Fonts */,
-				2F182C852B14D4C700F9093C /* Assets.xcassets */,
-				2F182C812B14D4C600F9093C /* ufAlarmApp.swift */,
 				2F182C872B14D4C700F9093C /* Preview Content */,
 			);
 			path = ufAlarm;
@@ -217,7 +220,7 @@
 				2F182CC02B14F97F00F9093C /* Extensions */,
 				2F182CA52B14DA5300F9093C /* DateTime */,
 				2F182C9C2B14D78500F9093C /* Consts */,
-				2F182CD02B1531E000F9093C /* Localizable.xcstrings */,
+				2FFAED4E2B16DBBD003FDB4C /* Notifications */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -349,6 +352,14 @@
 			path = Activity;
 			sourceTree = "<group>";
 		};
+		2FFAED4E2B16DBBD003FDB4C /* Notifications */ = {
+			isa = PBXGroup;
+			children = (
+				2FFAED4F2B16DBEC003FDB4C /* LocalNotificationManager.swift */,
+			);
+			path = Notifications;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -456,6 +467,7 @@
 				2F182CD72B15A5C600F9093C /* AlarmDetailView.swift in Sources */,
 				2F8D8A442B1636E70083ED53 /* SelectActivityView.swift in Sources */,
 				2F182C9E2B14D79400F9093C /* ScreenConstants.swift in Sources */,
+				2FFAED502B16DBEC003FDB4C /* LocalNotificationManager.swift in Sources */,
 				2F182CBF2B14F66C00F9093C /* MainGradient.swift in Sources */,
 				2F8D8A3E2B1627A90083ED53 /* CircularKnob.swift in Sources */,
 				2F182CBB2B14F05C00F9093C /* FourAnimatedGradCirclesView.swift in Sources */,

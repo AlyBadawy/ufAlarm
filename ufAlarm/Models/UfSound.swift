@@ -7,7 +7,7 @@
 
 import Foundation
 
-enum UfSound: String, CaseIterable {
+enum UfSound: String, CaseIterable, Codable {
   case wake_up = "Sound Wake up"
   case lagrima = "Lagrima"
   

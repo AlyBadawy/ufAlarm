@@ -8,6 +8,8 @@
 import SwiftUI
 
 struct EnableNotificationsView: View {
+  @Environment(LocalNotificationManager.self) var lnMAnager
+  
   var body: some View {
     ZStack {
       FourAnimatedGradCirclesView()
@@ -21,7 +23,7 @@ struct EnableNotificationsView: View {
         Spacer()
         
         Button {
-          // TODO: Enable notifications
+          lnMAnager.openSettings()
         } label: {
           UfButton(text: "Enable")
         }
@@ -32,4 +34,5 @@ struct EnableNotificationsView: View {
 
 #Preview {
   EnableNotificationsView()
+    .environment(LocalNotificationManager())
 }
