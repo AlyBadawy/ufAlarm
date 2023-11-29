@@ -10,7 +10,7 @@ import SwiftUI
 struct AddEditAlarmForm: View {
   let currentAlarmIndex: Int?
   
-  @Binding var alarm: UfAlarm
+  @Binding var alarm: AlarmUf
   
   var body: some View {
     VStack {
@@ -70,7 +70,7 @@ struct AddEditAlarmForm: View {
           }
           
           Menu {
-            ForEach(UfSound.allCases, id: \.self) {sound in
+            ForEach(SoundUf.allCases, id: \.self) {sound in
               Button {
                 alarm.sound = sound
               } label: {

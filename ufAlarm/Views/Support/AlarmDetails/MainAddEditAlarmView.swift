@@ -10,7 +10,7 @@ import SwiftUI
 struct MainAddEditAlarmView: View {
   let currentAlarmIndex: Int?
   
-  @State var alarm: UfAlarm
+  @State var alarm: AlarmUf
   @State private var selectedTab = "One"
   
   var body: some View {

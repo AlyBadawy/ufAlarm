@@ -8,12 +8,12 @@
 import Foundation
 
 
-struct UfTime: Equatable, Comparable, Identifiable {
+struct TimeUf: Equatable, Comparable, Identifiable {
   let id = UUID()
   let hours: Int
   let minutes: Int
   
-  static func < (lhs: UfTime, rhs: UfTime) -> Bool {
+  static func < (lhs: TimeUf, rhs: TimeUf) -> Bool {
     (lhs.hours < rhs.hours) || (lhs.hours == rhs.hours && lhs.minutes < rhs.minutes)
   }
 }

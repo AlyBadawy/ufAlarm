@@ -9,7 +9,7 @@ import SwiftUI
 
 struct AlarmsListView: View {
   
-  var alarmViewModels: [UfAlarm]
+  var alarmViewModels: [AlarmUf]
   var body: some View {
     NavigationStack {
       ZStack {
@@ -49,5 +49,5 @@ struct AlarmsListView: View {
 }
 
 #Preview {
-  AlarmsListView(alarmViewModels: UfAlarm.dummyAlarmData())
+  AlarmsListView(alarmViewModels: AlarmUf.dummyAlarmData())
 }

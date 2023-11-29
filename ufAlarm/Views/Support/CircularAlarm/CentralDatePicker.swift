@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct CentralDatePicker: View {
-  @Binding var alarm: UfAlarm
+  @Binding var alarm: AlarmUf
   let size: CGFloat
   
   var lineWidth: CGFloat = 10.0

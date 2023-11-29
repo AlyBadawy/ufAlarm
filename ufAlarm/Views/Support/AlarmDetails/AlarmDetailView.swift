@@ -10,7 +10,7 @@ import SwiftUI
 struct AlarmDetailView: View {
   let currentAlarmIndex: Int?
   
-  @Binding var alarm: UfAlarm
+  @Binding var alarm: AlarmUf
   @State private var showConfirmation = true
   
   var body: some View {

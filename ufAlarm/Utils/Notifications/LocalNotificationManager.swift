@@ -15,7 +15,7 @@ import NotificationCenter
   
   var isAuthorized = false
   var pendingAlarms: [UNNotificationRequest] = []
-  var alarmVMs: [UfAlarm] = [] {
+  var alarmVMs: [AlarmUf] = [] {
     didSet {
       saveItems()
     }
@@ -67,7 +67,7 @@ import NotificationCenter
     // Alarm VMs persistance
     guard let data = UserDefaults
       .standard.data(forKey: itemKey),
-          let savedItems = try? JSONDecoder().decode([UfAlarm].self, from: data)
+          let savedItems = try? JSONDecoder().decode([AlarmUf].self, from: data)
     else {
       return
     }

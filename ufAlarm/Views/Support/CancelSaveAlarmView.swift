@@ -9,7 +9,7 @@ import SwiftUI
 
 struct CancelSaveAlarmView: View {
   let currentAlarmIndex: Int?
-  @Binding var alarm: UfAlarm
+  @Binding var alarm: AlarmUf
   
   var body: some View {
     HStack {

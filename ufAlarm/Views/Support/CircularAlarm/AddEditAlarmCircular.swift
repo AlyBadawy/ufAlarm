@@ -10,7 +10,7 @@ import SwiftUI
 struct AddEditAlarmCircular: View {
   let currentAlarmIndex: Int?
   
-  @Binding var alarm: UfAlarm
+  @Binding var alarm: AlarmUf
   
   
   var body: some View {

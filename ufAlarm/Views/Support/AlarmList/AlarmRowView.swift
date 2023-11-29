@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct AlarmRowView: View {
-  let alarm: UfAlarm
+  let alarm: AlarmUf
   let idx: Int
   
   

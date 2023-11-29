@@ -8,13 +8,13 @@
 import Foundation
 import SwiftUI
 
-struct UfAlarm: Identifiable, Codable {
+struct AlarmUf: Identifiable, Codable {
   let id = UUID().uuidString
   
   let title: String
   let body: String
   let repeats: Bool
-  var sound: UfSound
+  var sound: SoundUf
   var alarmEnabled: Bool
   var start: Date
   var end: Date
@@ -29,16 +29,16 @@ struct UfAlarm: Identifiable, Codable {
     end - start
   }
   
-  var startTime: UfTime {
+  var startTime: TimeUf {
     dateToUfTime(dateTime: start)
   }
   
-  var endTime: UfTime {
+  var endTime: TimeUf {
     dateToUfTime(dateTime: end)
   }
   
-  static func defaultAlarm() -> UfAlarm {
-    UfAlarm(title: "Activity Completed",
+  static func defaultAlarm() -> AlarmUf {
+    AlarmUf(title: "Activity Completed",
             body: "Have a great Day",
             repeats: false,
             sound: .lagrima,
@@ -49,9 +49,9 @@ struct UfAlarm: Identifiable, Codable {
             colorIndex: 0)
   }
   
-  static func dummyAlarmData() -> [UfAlarm] {
+  static func dummyAlarmData() -> [AlarmUf] {
     [
-      UfAlarm(title: "Activity Completed",
+      AlarmUf(title: "Activity Completed",
               body: "Have a great Day",
               repeats: false,
               sound: .lagrima,
@@ -61,7 +61,7 @@ struct UfAlarm: Identifiable, Codable {
               activity: ACTIVITIES[0],
               colorIndex: 0),
       
-      UfAlarm(title: "Yo Yo!",
+      AlarmUf(title: "Yo Yo!",
               body: "Peace",
               repeats: false,
               sound: .lagrima,
@@ -71,7 +71,7 @@ struct UfAlarm: Identifiable, Codable {
               activity: ACTIVITIES[2],
               colorIndex: 1),
       
-      UfAlarm(title: "He He",
+      AlarmUf(title: "He He",
               body: "nyahahaha",
               repeats: false,
               sound: .wake_up,
@@ -81,7 +81,7 @@ struct UfAlarm: Identifiable, Codable {
               activity: ACTIVITIES[4],
               colorIndex: 2),
       
-      UfAlarm(title: "Romba",
+      AlarmUf(title: "Romba",
               body: "Have a great Day",
               repeats: false,
               sound: .lagrima,
@@ -91,7 +91,7 @@ struct UfAlarm: Identifiable, Codable {
               activity: ACTIVITIES[0],
               colorIndex: 0),
       
-      UfAlarm(title: "Zomba!",
+      AlarmUf(title: "Zomba!",
               body: "Another Body",
               repeats: false,
               sound: .lagrima,
@@ -101,7 +101,7 @@ struct UfAlarm: Identifiable, Codable {
               activity: ACTIVITIES[2],
               colorIndex: 1),
       
-      UfAlarm(title: "nyahahaha",
+      AlarmUf(title: "nyahahaha",
               body: "nyahahaha",
               repeats: false,
               sound: .wake_up,
@@ -111,7 +111,7 @@ struct UfAlarm: Identifiable, Codable {
               activity: ACTIVITIES[4],
               colorIndex: 2),
       
-      UfAlarm(title: "He Ha Ho",
+      AlarmUf(title: "He Ha Ho",
               body: "",
               repeats: false,
               sound: .lagrima,
@@ -121,7 +121,7 @@ struct UfAlarm: Identifiable, Codable {
               activity: ACTIVITIES[4],
               colorIndex: 2),
       
-      UfAlarm(title: "Activity Started",
+      AlarmUf(title: "Activity Started",
               body: "Have a great night",
               repeats: false,
               sound: .lagrima,
@@ -131,7 +131,7 @@ struct UfAlarm: Identifiable, Codable {
               activity: ACTIVITIES[0],
               colorIndex: 0),
       
-      UfAlarm(title: "Yo YE Ya!",
+      AlarmUf(title: "Yo YE Ya!",
               body: "bbmmm",
               repeats: false,
               sound: .lagrima,

@@ -16,9 +16,9 @@
 		2F182CA42B14D9D100F9093C /* CustomTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F182CA32B14D9D100F9093C /* CustomTextView.swift */; };
 		2F182CA72B14DA7000F9093C /* DateTimeUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F182CA62B14DA7000F9093C /* DateTimeUtils.swift */; };
 		2F182CA92B14DA9400F9093C /* DateExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F182CA82B14DA9400F9093C /* DateExtensions.swift */; };
-		2F182CAB2B14DB5700F9093C /* UfTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F182CAA2B14DB5700F9093C /* UfTime.swift */; };
-		2F182CAD2B14DB5F00F9093C /* UfAlarm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F182CAC2B14DB5F00F9093C /* UfAlarm.swift */; };
-		2F182CAF2B14E51000F9093C /* UfSound.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F182CAE2B14E51000F9093C /* UfSound.swift */; };
+		2F182CAB2B14DB5700F9093C /* TimeUf.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F182CAA2B14DB5700F9093C /* TimeUf.swift */; };
+		2F182CAD2B14DB5F00F9093C /* AlarmUf.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F182CAC2B14DB5F00F9093C /* AlarmUf.swift */; };
+		2F182CAF2B14E51000F9093C /* SoundUf.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F182CAE2B14E51000F9093C /* SoundUf.swift */; };
 		2F182CB12B14E59500F9093C /* ActivityConsts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F182CB02B14E59500F9093C /* ActivityConsts.swift */; };
 		2F182CB32B14E62100F9093C /* ColorConsts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F182CB22B14E62100F9093C /* ColorConsts.swift */; };
 		2F182CB52B14EE8A00F9093C /* TimeIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F182CB42B14EE8A00F9093C /* TimeIcon.swift */; };
@@ -75,9 +75,9 @@
 		2F182CA32B14D9D100F9093C /* CustomTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextView.swift; sourceTree = "<group>"; };
 		2F182CA62B14DA7000F9093C /* DateTimeUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateTimeUtils.swift; sourceTree = "<group>"; };
 		2F182CA82B14DA9400F9093C /* DateExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateExtensions.swift; sourceTree = "<group>"; };
-		2F182CAA2B14DB5700F9093C /* UfTime.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UfTime.swift; sourceTree = "<group>"; };
-		2F182CAC2B14DB5F00F9093C /* UfAlarm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UfAlarm.swift; sourceTree = "<group>"; };
-		2F182CAE2B14E51000F9093C /* UfSound.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UfSound.swift; sourceTree = "<group>"; };
+		2F182CAA2B14DB5700F9093C /* TimeUf.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeUf.swift; sourceTree = "<group>"; };
+		2F182CAC2B14DB5F00F9093C /* AlarmUf.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmUf.swift; sourceTree = "<group>"; };
+		2F182CAE2B14E51000F9093C /* SoundUf.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundUf.swift; sourceTree = "<group>"; };
 		2F182CB02B14E59500F9093C /* ActivityConsts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityConsts.swift; sourceTree = "<group>"; };
 		2F182CB22B14E62100F9093C /* ColorConsts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorConsts.swift; sourceTree = "<group>"; };
 		2F182CB42B14EE8A00F9093C /* TimeIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeIcon.swift; sourceTree = "<group>"; };
@@ -186,9 +186,9 @@
 		2F182C902B14D4E000F9093C /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				2F182CAA2B14DB5700F9093C /* UfTime.swift */,
-				2F182CAC2B14DB5F00F9093C /* UfAlarm.swift */,
-				2F182CAE2B14E51000F9093C /* UfSound.swift */,
+				2F182CAA2B14DB5700F9093C /* TimeUf.swift */,
+				2F182CAC2B14DB5F00F9093C /* AlarmUf.swift */,
+				2F182CAE2B14E51000F9093C /* SoundUf.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -439,7 +439,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2F182CAF2B14E51000F9093C /* UfSound.swift in Sources */,
+				2F182CAF2B14E51000F9093C /* SoundUf.swift in Sources */,
 				2F182CB32B14E62100F9093C /* ColorConsts.swift in Sources */,
 				2F182CBD2B14F15700F9093C /* AboutView.swift in Sources */,
 				2F182CD52B15A2A800F9093C /* EnableNotificationsView.swift in Sources */,
@@ -453,14 +453,14 @@
 				2F182CB52B14EE8A00F9093C /* TimeIcon.swift in Sources */,
 				2F182CD32B158F7900F9093C /* UfButton.swift in Sources */,
 				2F8D8A632B16B0700083ED53 /* SelectActivityExpanded.swift in Sources */,
-				2F182CAB2B14DB5700F9093C /* UfTime.swift in Sources */,
+				2F182CAB2B14DB5700F9093C /* TimeUf.swift in Sources */,
 				2F8D8A482B1657100083ED53 /* AlarmRowView.swift in Sources */,
 				2F8D8A462B16444B0083ED53 /* AlarmsListView.swift in Sources */,
 				2F8D8A5C2B1698AB0083ED53 /* ClockTicks.swift in Sources */,
 				2F8D8A5E2B169BD60083ED53 /* ClockTick.swift in Sources */,
 				2F182C842B14D4C600F9093C /* MainAlarmView.swift in Sources */,
 				2F182CA42B14D9D100F9093C /* CustomTextView.swift in Sources */,
-				2F182CAD2B14DB5F00F9093C /* UfAlarm.swift in Sources */,
+				2F182CAD2B14DB5F00F9093C /* AlarmUf.swift in Sources */,
 				2F182CDB2B15AC9900F9093C /* AddEditAlarmForm.swift in Sources */,
 				2F8D8A562B16679C0083ED53 /* CentralDatePicker.swift in Sources */,
 				2F182CD92B15A75B00F9093C /* AlarmConfirmationView.swift in Sources */,
