@@ -59,6 +59,20 @@
 		2F8D8A5E2B169BD60083ED53 /* ClockTick.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F8D8A5D2B169BD60083ED53 /* ClockTick.swift */; };
 		2F8D8A602B16A4240083ED53 /* MainAddEditAlarmView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F8D8A5F2B16A4240083ED53 /* MainAddEditAlarmView.swift */; };
 		2F8D8A632B16B0700083ED53 /* SelectActivityExpanded.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F8D8A622B16B0700083ED53 /* SelectActivityExpanded.swift */; };
+		2FB94AAC2B17BC0B00A791A4 /* car_alarm.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2FB94AA22B17BC0B00A791A4 /* car_alarm.mp3 */; };
+		2FB94AAD2B17BC0B00A791A4 /* clock_alarm.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2FB94AA32B17BC0B00A791A4 /* clock_alarm.mp3 */; };
+		2FB94AAE2B17BC0B00A791A4 /* security_alarm.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2FB94AA42B17BC0B00A791A4 /* security_alarm.mp3 */; };
+		2FB94AAF2B17BC0B00A791A4 /* facility_siren.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2FB94AA52B17BC0B00A791A4 /* facility_siren.mp3 */; };
+		2FB94AB02B17BC0B00A791A4 /* red_alert.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2FB94AA62B17BC0B00A791A4 /* red_alert.mp3 */; };
+		2FB94AB12B17BC0B00A791A4 /* tic_tac.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2FB94AA72B17BC0B00A791A4 /* tic_tac.mp3 */; };
+		2FB94AB22B17BC0B00A791A4 /* short_clock_alarm.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2FB94AA82B17BC0B00A791A4 /* short_clock_alarm.mp3 */; };
+		2FB94AB32B17BC0B00A791A4 /* fire_alarm.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2FB94AA92B17BC0B00A791A4 /* fire_alarm.mp3 */; };
+		2FB94AB42B17BC0B00A791A4 /* military_alarm.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2FB94AAA2B17BC0B00A791A4 /* military_alarm.mp3 */; };
+		2FB94AB52B17BC0B00A791A4 /* alarm.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2FB94AAB2B17BC0B00A791A4 /* alarm.mp3 */; };
+		2FB94AB92B17BEED00A791A4 /* StringExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FB94AB82B17BEED00A791A4 /* StringExtensions.swift */; };
+		2FB94ABC2B17C70300A791A4 /* UfSoundPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FB94ABB2B17C70300A791A4 /* UfSoundPlayer.swift */; };
+		2FB94ABF2B1830F500A791A4 /* SoundMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FB94ABE2B1830F500A791A4 /* SoundMenu.swift */; };
+		2FB94AC12B1839B500A791A4 /* SoundMenuFromButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FB94AC02B1839B500A791A4 /* SoundMenuFromButton.swift */; };
 		2FFAED502B16DBEC003FDB4C /* LocalNotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FFAED4F2B16DBEC003FDB4C /* LocalNotificationManager.swift */; };
 /* End PBXBuildFile section */
 
@@ -117,6 +131,20 @@
 		2F8D8A5D2B169BD60083ED53 /* ClockTick.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClockTick.swift; sourceTree = "<group>"; };
 		2F8D8A5F2B16A4240083ED53 /* MainAddEditAlarmView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainAddEditAlarmView.swift; sourceTree = "<group>"; };
 		2F8D8A622B16B0700083ED53 /* SelectActivityExpanded.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectActivityExpanded.swift; sourceTree = "<group>"; };
+		2FB94AA22B17BC0B00A791A4 /* car_alarm.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = car_alarm.mp3; sourceTree = "<group>"; };
+		2FB94AA32B17BC0B00A791A4 /* clock_alarm.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = clock_alarm.mp3; sourceTree = "<group>"; };
+		2FB94AA42B17BC0B00A791A4 /* security_alarm.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = security_alarm.mp3; sourceTree = "<group>"; };
+		2FB94AA52B17BC0B00A791A4 /* facility_siren.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = facility_siren.mp3; sourceTree = "<group>"; };
+		2FB94AA62B17BC0B00A791A4 /* red_alert.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = red_alert.mp3; sourceTree = "<group>"; };
+		2FB94AA72B17BC0B00A791A4 /* tic_tac.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = tic_tac.mp3; sourceTree = "<group>"; };
+		2FB94AA82B17BC0B00A791A4 /* short_clock_alarm.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = short_clock_alarm.mp3; sourceTree = "<group>"; };
+		2FB94AA92B17BC0B00A791A4 /* fire_alarm.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = fire_alarm.mp3; sourceTree = "<group>"; };
+		2FB94AAA2B17BC0B00A791A4 /* military_alarm.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = military_alarm.mp3; sourceTree = "<group>"; };
+		2FB94AAB2B17BC0B00A791A4 /* alarm.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = alarm.mp3; sourceTree = "<group>"; };
+		2FB94AB82B17BEED00A791A4 /* StringExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtensions.swift; sourceTree = "<group>"; };
+		2FB94ABB2B17C70300A791A4 /* UfSoundPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UfSoundPlayer.swift; sourceTree = "<group>"; };
+		2FB94ABE2B1830F500A791A4 /* SoundMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundMenu.swift; sourceTree = "<group>"; };
+		2FB94AC02B1839B500A791A4 /* SoundMenuFromButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundMenuFromButton.swift; sourceTree = "<group>"; };
 		2FFAED4F2B16DBEC003FDB4C /* LocalNotificationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalNotificationManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -217,10 +245,11 @@
 		2F182C932B14D51400F9093C /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				2F182C9C2B14D78500F9093C /* Consts */,
 				2F182CC02B14F97F00F9093C /* Extensions */,
 				2F182CA52B14DA5300F9093C /* DateTime */,
-				2F182C9C2B14D78500F9093C /* Consts */,
 				2FFAED4E2B16DBBD003FDB4C /* Notifications */,
+				2FB94ABA2B17C5FB00A791A4 /* Sound */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -228,6 +257,16 @@
 		2F182C942B14D51D00F9093C /* Sounds */ = {
 			isa = PBXGroup;
 			children = (
+				2FB94AA22B17BC0B00A791A4 /* car_alarm.mp3 */,
+				2FB94AA82B17BC0B00A791A4 /* short_clock_alarm.mp3 */,
+				2FB94AAB2B17BC0B00A791A4 /* alarm.mp3 */,
+				2FB94AA32B17BC0B00A791A4 /* clock_alarm.mp3 */,
+				2FB94AA52B17BC0B00A791A4 /* facility_siren.mp3 */,
+				2FB94AA92B17BC0B00A791A4 /* fire_alarm.mp3 */,
+				2FB94AAA2B17BC0B00A791A4 /* military_alarm.mp3 */,
+				2FB94AA62B17BC0B00A791A4 /* red_alert.mp3 */,
+				2FB94AA42B17BC0B00A791A4 /* security_alarm.mp3 */,
+				2FB94AA72B17BC0B00A791A4 /* tic_tac.mp3 */,
 			);
 			path = Sounds;
 			sourceTree = "<group>";
@@ -246,12 +285,12 @@
 		2F182C962B14D69900F9093C /* Support */ = {
 			isa = PBXGroup;
 			children = (
+				2FB94ABD2B1830C000A791A4 /* Sound */,
 				2F8D8A612B16B05E0083ED53 /* Activity */,
 				2F8D8A542B1666A40083ED53 /* AlarmDetails */,
 				2F8D8A532B1666820083ED53 /* AlarmList */,
 				2F8D8A522B1666410083ED53 /* ToggleAlarm */,
 				2F8D8A512B16661A0083ED53 /* CircularAlarm */,
-				2F182CDC2B15B2BD00F9093C /* CancelSaveAlarmView.swift */,
 			);
 			path = Support;
 			sourceTree = "<group>";
@@ -294,6 +333,7 @@
 			children = (
 				2F182CA82B14DA9400F9093C /* DateExtensions.swift */,
 				2F182CC12B14F98E00F9093C /* FontExtensions.swift */,
+				2FB94AB82B17BEED00A791A4 /* StringExtensions.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -335,6 +375,7 @@
 		2F8D8A542B1666A40083ED53 /* AlarmDetails */ = {
 			isa = PBXGroup;
 			children = (
+				2F182CDC2B15B2BD00F9093C /* CancelSaveAlarmView.swift */,
 				2F182CD62B15A5C600F9093C /* AlarmDetailView.swift */,
 				2F182CD82B15A75B00F9093C /* AlarmConfirmationView.swift */,
 				2F182CDA2B15AC9900F9093C /* AddEditAlarmForm.swift */,
@@ -350,6 +391,23 @@
 				2F8D8A622B16B0700083ED53 /* SelectActivityExpanded.swift */,
 			);
 			path = Activity;
+			sourceTree = "<group>";
+		};
+		2FB94ABA2B17C5FB00A791A4 /* Sound */ = {
+			isa = PBXGroup;
+			children = (
+				2FB94ABB2B17C70300A791A4 /* UfSoundPlayer.swift */,
+			);
+			path = Sound;
+			sourceTree = "<group>";
+		};
+		2FB94ABD2B1830C000A791A4 /* Sound */ = {
+			isa = PBXGroup;
+			children = (
+				2FB94ABE2B1830F500A791A4 /* SoundMenu.swift */,
+				2FB94AC02B1839B500A791A4 /* SoundMenuFromButton.swift */,
+			);
+			path = Sound;
 			sourceTree = "<group>";
 		};
 		2FFAED4E2B16DBBD003FDB4C /* Notifications */ = {
@@ -420,15 +478,25 @@
 			buildActionMask = 2147483647;
 			files = (
 				2F182C892B14D4C700F9093C /* Preview Assets.xcassets in Resources */,
+				2FB94AAC2B17BC0B00A791A4 /* car_alarm.mp3 in Resources */,
 				2F182C862B14D4C700F9093C /* Assets.xcassets in Resources */,
+				2FB94AAF2B17BC0B00A791A4 /* facility_siren.mp3 in Resources */,
 				2F182CCE2B15007100F9093C /* WorkSans-VariableFont_wght.ttf in Resources */,
 				2F182CCC2B15006D00F9093C /* ElMessiri-SemiBold.ttf in Resources */,
 				2F182CCA2B15006800F9093C /* ElMessiri-Medium.ttf in Resources */,
+				2FB94AB42B17BC0B00A791A4 /* military_alarm.mp3 in Resources */,
+				2FB94AB02B17BC0B00A791A4 /* red_alert.mp3 in Resources */,
 				2F182CC82B15006300F9093C /* arabic_font.ttf in Resources */,
 				2F182CD12B1531E000F9093C /* Localizable.xcstrings in Resources */,
 				2F182CCB2B15006A00F9093C /* ElMessiri-Regular.ttf in Resources */,
 				2F182CCD2B15006F00F9093C /* WorkSans-Italic-VariableFont_wght.ttf in Resources */,
+				2FB94AB12B17BC0B00A791A4 /* tic_tac.mp3 in Resources */,
 				2F182CC92B15006600F9093C /* ElMessiri-Bold.ttf in Resources */,
+				2FB94AB22B17BC0B00A791A4 /* short_clock_alarm.mp3 in Resources */,
+				2FB94AAD2B17BC0B00A791A4 /* clock_alarm.mp3 in Resources */,
+				2FB94AAE2B17BC0B00A791A4 /* security_alarm.mp3 in Resources */,
+				2FB94AB32B17BC0B00A791A4 /* fire_alarm.mp3 in Resources */,
+				2FB94AB52B17BC0B00A791A4 /* alarm.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -445,6 +513,7 @@
 				2F182CD52B15A2A800F9093C /* EnableNotificationsView.swift in Sources */,
 				2F182CB72B14EF3000F9093C /* SplashScreen.swift in Sources */,
 				2F182CA92B14DA9400F9093C /* DateExtensions.swift in Sources */,
+				2FB94ABF2B1830F500A791A4 /* SoundMenu.swift in Sources */,
 				2F8D8A422B1633EE0083ED53 /* TimePicker.swift in Sources */,
 				2F182CA72B14DA7000F9093C /* DateTimeUtils.swift in Sources */,
 				2F182CC22B14F98E00F9093C /* FontExtensions.swift in Sources */,
@@ -467,6 +536,7 @@
 				2F182CD72B15A5C600F9093C /* AlarmDetailView.swift in Sources */,
 				2F8D8A442B1636E70083ED53 /* SelectActivityView.swift in Sources */,
 				2F182C9E2B14D79400F9093C /* ScreenConstants.swift in Sources */,
+				2FB94AB92B17BEED00A791A4 /* StringExtensions.swift in Sources */,
 				2FFAED502B16DBEC003FDB4C /* LocalNotificationManager.swift in Sources */,
 				2F182CBF2B14F66C00F9093C /* MainGradient.swift in Sources */,
 				2F8D8A3E2B1627A90083ED53 /* CircularKnob.swift in Sources */,
@@ -479,7 +549,9 @@
 				2F182CDD2B15B2BD00F9093C /* CancelSaveAlarmView.swift in Sources */,
 				2F8D8A502B16611B0083ED53 /* CircularTimeView.swift in Sources */,
 				2F8D8A4A2B1658AD0083ED53 /* Toggler.swift in Sources */,
+				2FB94AC12B1839B500A791A4 /* SoundMenuFromButton.swift in Sources */,
 				2F8D8A4C2B165F490083ED53 /* AddEditAlarmCircular.swift in Sources */,
+				2FB94ABC2B17C70300A791A4 /* UfSoundPlayer.swift in Sources */,
 				2F182CB12B14E59500F9093C /* ActivityConsts.swift in Sources */,
 				2F182CA22B14D95800F9093C /* GrayedTextView.swift in Sources */,
 			);
