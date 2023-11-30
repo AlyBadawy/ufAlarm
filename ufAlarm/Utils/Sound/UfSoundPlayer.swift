@@ -8,7 +8,7 @@
 import Foundation
 import AVFoundation
 
-var audioPlayer: AVAudioPlayer? = AVAudioPlayer()
+var audioPlayer: AVAudioPlayer?
 
 
 // Play sound with a default value set to 1.0

@@ -8,21 +8,52 @@
 import SwiftUI
 
 struct AlarmsListView: View {
+  @Environment(LocalNotificationManager.self) var lnManager
   
-  var alarmViewModels: [AlarmUf]
+  @State var isActive = false
+  @State var currentIdx: Int? = nil
+  
+  func deleteAlarms(indexSet: IndexSet) {
+    
+    // Remove from pending alarms
+    for idx in indexSet {
+      lnManager.removeRequest(id: lnManager.alarmVMs[idx].id)
+    }
+    
+
+    // Remove from the alarmVMs
+    lnManager.alarmVMs.remove(atOffsets: indexSet)
+  }
+  
   var body: some View {
     NavigationStack {
       ZStack {
         List {
-          ForEach(0 ..< alarmViewModels.count, id: \.self) { idx in
-            let alarm = alarmViewModels[idx]
-            NavigationLink {
-              MainAddEditAlarmView(currentAlarmIndex: idx, alarm: alarm)
+          ForEach(lnManager.alarmVMs.indices, id: \.self) { idx in
+            let alarm = lnManager.alarmVMs[idx]
+            
+            Button {
+              currentIdx = idx
+              isActive.toggle()
             } label: {
               AlarmRowView(alarm: alarm, idx: idx)
+                .padding(.vertical)
             }
+
+            
+//            NavigationLink {
+//              MainAddEditAlarmView(currentAlarmIndex: idx, alarm: alarm)
+//            } label: {
+//              AlarmRowView(alarm: alarm, idx: idx)
+//            }
           }
+          .onDelete(perform: deleteAlarms)
         }
+        .overlay(Group {
+          if lnManager.alarmVMs.isEmpty {
+            Text("Oops, looks like there's no alarms...")
+          }
+        })
         
         FourAnimatedGradCirclesView()
           .opacity(0.2)
@@ -49,5 +80,6 @@ struct AlarmsListView: View {
 }
 
 #Preview {
-  AlarmsListView(alarmViewModels: AlarmUf.dummyAlarmData())
+  AlarmsListView()
+    .environment(LocalNotificationManager())
 }

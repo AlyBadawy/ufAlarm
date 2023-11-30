@@ -8,9 +8,10 @@
 import SwiftUI
 
 struct AlarmRowView: View {
+  @Environment(LocalNotificationManager.self) var lnManager
+  
   let alarm: AlarmUf
   let idx: Int
-  
   
   var body: some View {
     HStack(spacing: 10) {
@@ -18,7 +19,7 @@ struct AlarmRowView: View {
         .foregroundStyle(alarm.activityColor)
         .font(.title)
       
-        Text("\(getTimeFromDateTime(dateTime: alarm.end))")
+        Text("\(getTimeFromDateTime(dateTime: alarm.start))-\(getTimeFromDateTime(dateTime: alarm.end))")
         .font(.title2)
           .fontWeight(alarm.alarmEnabled ? .regular : .thin)
           .scaleEffect(alarm.alarmEnabled ? 1.05 : 1.0)
@@ -26,11 +27,24 @@ struct AlarmRowView: View {
       
       Spacer()
       
-      Toggler(isOn: .constant(alarm.alarmEnabled))
+      if idx < lnManager.alarmVMs.count {
+        Toggler(isOn: .constant(lnManager.alarmVMs[idx].alarmEnabled))
+      }
+      
+    }
+    .onChange(of: alarm.alarmEnabled) { oldValue, newValue in
+      if newValue == true {
+        Task {
+            await lnManager.schedule(localNotification: alarm)
+        }
+      } else {
+        lnManager.removeRequest(id: alarm.id)
+      }
     }
   }
 }
 
 #Preview {
   AlarmRowView(alarm: .defaultAlarm(), idx: 0)
+    .environment(LocalNotificationManager())
 }

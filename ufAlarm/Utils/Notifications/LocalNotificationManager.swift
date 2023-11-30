@@ -60,6 +60,49 @@ import NotificationCenter
     pendingAlarms = await notificationCenter.pendingNotificationRequests()
   }
   
+  
+  func schedule(localNotification: AlarmUf) async {
+    let content = UNMutableNotificationContent()
+    content.body = NSLocalizedString(localNotification.body, comment: "")
+    content.sound = notificationSound(sound: localNotification.sound)
+    
+    let dateComponents = localNotification.endDateTimeComponents
+    let trigger = UNCalendarNotificationTrigger(
+      dateMatching: dateComponents,
+      repeats: localNotification.repeats
+    )
+    
+    let request = UNNotificationRequest(
+      identifier: localNotification.id,
+      content: content,
+      trigger: trigger)
+    
+    try? await notificationCenter
+      .add(request)
+    
+    pendingAlarms = await notificationCenter
+      .pendingNotificationRequests()
+  }
+  
+  func notificationSound(sound: SoundUf) -> UNNotificationSound? {
+    let filename = "\(sound.rawValue)"
+    
+    return UNNotificationSound(
+      named: UNNotificationSoundName(filename)
+    )
+  }
+  
+  func removeRequest(id: String) {
+    notificationCenter
+      .removeDeliveredNotifications(withIdentifiers: [id])
+    
+    if let idx = pendingAlarms.firstIndex(where: { req in
+      req.identifier == id
+    }) {
+      pendingAlarms.remove(at: idx)
+    }
+  }
+  
   override init() {
     super.init()
     // TODO: Want alarm to go off when app is also active

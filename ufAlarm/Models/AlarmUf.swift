@@ -9,7 +9,7 @@ import Foundation
 import SwiftUI
 
 struct AlarmUf: Identifiable, Codable {
-  let id = UUID().uuidString
+  private(set) var id = UUID().uuidString
   
   let title: String
   let body: String
@@ -35,6 +35,15 @@ struct AlarmUf: Identifiable, Codable {
   
   var endTime: TimeUf {
     dateToUfTime(dateTime: end)
+  }
+  
+  var endDateTimeComponents: DateComponents {
+    return Calendar
+      .current
+      .dateComponents(
+        [.hour, .minute],
+        from: self.end
+      )
   }
   
   static func defaultAlarm() -> AlarmUf {

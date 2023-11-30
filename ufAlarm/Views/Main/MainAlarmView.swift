@@ -15,7 +15,7 @@ struct MainAlarmView: View {
   var body: some View {
     TabView {
       if lnManager.isAuthorized {
-        AlarmsListView(alarmViewModels: AlarmUf.dummyAlarmData() + AlarmUf.dummyAlarmData())
+        AlarmsListView()
           .tabItem {
             Label("Alarms", systemImage: "alarm.fill")
           }

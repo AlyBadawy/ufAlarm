@@ -4,8 +4,15 @@
     "" : {
 
     },
-    "%@" : {
-
+    "%@-%@" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "%1$@-%2$@"
+          }
+        }
+      }
     },
     "About" : {
 
@@ -30,6 +37,9 @@
     "Alarm List" : {
 
     },
+    "Alarm Sounds" : {
+
+    },
     "Alarms" : {
 
     },
@@ -51,10 +61,16 @@
     "let's add an alarm" : {
 
     },
+    "Nature Sounds" : {
+
+    },
     "off" : {
 
     },
     "on" : {
+
+    },
+    "Oops, looks like there's no alarms..." : {
 
     },
     "Save" : {
